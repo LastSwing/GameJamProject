@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 
-    public Transform SceneRoot,UIRoot;
-    public int yali;//压力
-    public int hemu;//和睦值
-    public int jiankang;//健康
-    public void init(/*待定*/)
+    public Transform SceneRoot,UIRoot,OtherRoot;
+    public int pressurePoint;//压力
+    public int harmonyPoint;//和睦值
+    public int healthPoint;//健康
+    public void Init()
     {
-
+        SceneRoot = GameObject.Find("SceneRoot").transform;
+        UIRoot = GameObject.Find("UIRoot").transform;
+        OtherRoot = GameObject.Find("OtherRoot").transform;
     }
     
 

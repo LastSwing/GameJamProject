@@ -5,6 +5,7 @@ using UnityEngine;
 public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 
     public Transform SceneRoot,UIRoot,OtherRoot;
+	public string jsonDataPath;
 	#region ActionProp
 	public float childPressValue = 0;
 	public float childHarmonyValue = 0;

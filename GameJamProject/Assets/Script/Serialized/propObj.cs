@@ -7,7 +7,8 @@ using System;
 public class PropObj {
 	public int Id;
 	public string KeyName;
-	public string Type;
+	public int Type;
 	public int Min;
 	public int Max;
+	public string Name;
 }

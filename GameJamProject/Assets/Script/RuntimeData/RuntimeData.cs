@@ -10,13 +10,20 @@ public enum GameState {
 	GameOver
 }
 
+public enum KindOfState {
+	Pressure = 1,
+	Healthy = 2,
+	Harmony = 3,
+	Riches = 4
+}
+
 public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 
     public Transform SceneRoot,UIRoot,OtherRoot;
 	[Tooltip("Please input the Stuff json relative path.")]
 	public string stuffJsonPath;
 	[Tooltip("Please input the Prop json relative path.")]
-	public string[] propJsonPaths;
+	public string propJsonPath;
 	[Tooltip("Please input the father json relative path.")]
 	public string fatherOptionsPath;
 	#region ActionProp
@@ -36,9 +43,9 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	private GameState _state;
 
 	// record the data
-	private StuffGroup[] stuffs = null;
-	private Dictionary<string, PropObj[]> propDic = new Dictionary<string, PropObj[]>();
-	private OptionList[] fatherOpts = null;
+	private List<StuffGroup> stuffs = new List<StuffGroup>();
+	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
+	private List<OptionList> fatherOpts = null;
 	// development
 	public bool isDevelop = true;
 
@@ -55,12 +62,14 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		_child = new Child(childPressValue, childHarmonyValue, childMoneyValue, childHealthyValue);
 		_father = new Father(fatherPressValue, fatherHarmonyValue, fatherMoneyValue, fatherHealthyValue);
 		_loader = JsonLoader.getInstance();
+
+		_state = GameState.Menu;
 	}
 
 	private void InitData () {
 		loadStuffJson();
 		loadPropJson();
-		loadFatherJson();
+		//loadFatherJson();
 	}
 	// load Stuff Data
 	private void loadStuffJson () {
@@ -81,24 +90,50 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	}
 	// load prop data
 	private void loadPropJson () {
-		if (propJsonPaths.Length <= 0) {
+		if (String.IsNullOrEmpty(propJsonPath)) {
 			Debug.LogWarning("propJsonPaths is empty");
 			return;
 		}
 		// have four prop data
-		foreach (string path in propJsonPaths) {
-			try
+		try
+		{
+			_loader.setPath(propJsonPath);
+			string name = _loader.getJsonName();
+			string content = _loader.getJsonData();
+			PropObj[] props = _loader.parsePropJsonData(content);
+
+			List<PropObj> healthy = new List<PropObj>();
+			List<PropObj> harmony = new List<PropObj>();
+			List<PropObj> pressure = new List<PropObj>();
+			List<PropObj> riches =  new List<PropObj>();
+
+			foreach (PropObj p in props)
 			{
-				_loader.setPath(path);
-				string name = _loader.getJsonName();
-				string content = _loader.getJsonData();
-				PropObj[] prop = _loader.parsePropJsonData(content);
-				propDic.Add(name, prop);
-				
+				KindOfState state;
+				switch ( (KindOfState)p.Type ) {
+					case KindOfState.Healthy:
+						healthy.Add(p);
+						break;
+					case KindOfState.Harmony:
+						harmony.Add(p);
+						break;
+					case KindOfState.Pressure:
+						pressure.Add(p);
+						break;
+					case KindOfState.Riches:
+						riches.Add(p);
+						break;
+				}
 			}
-			catch (Exception e) {
-				Debug.LogException(e);
-			}
+
+			propDic.Add(KindOfState.Healthy, healthy);
+			propDic.Add(KindOfState.Pressure, pressure);
+			propDic.Add(KindOfState.Riches, riches);
+			propDic.Add(KindOfState.Harmony, harmony);
+		}
+		catch (Exception e)
+		{
+			Debug.LogException(e);
 		}
 	}
 

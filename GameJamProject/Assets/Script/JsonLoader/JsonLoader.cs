@@ -47,10 +47,15 @@ public class JsonLoader {
 	}
 
 	// 解析 stuff json 数据
-	public StuffGroup[] parseStuffJsonData(string json) {
+	public List<StuffGroup> parseStuffJsonData(string json) {
 		try
 		{
-			return JsonUtility.FromJson<StuffGroup[]>(json);
+			StuffGroup[] stuffArray = JsonHelper.FromJson<StuffGroup>(json);
+			List<StuffGroup> tempList = new List<StuffGroup>();
+			foreach (StuffGroup group in stuffArray) {
+				tempList.Add(group);
+			}
+			return tempList;
 		}
 		catch (Exception e) {
 			Debug.LogWarning(e);
@@ -59,10 +64,10 @@ public class JsonLoader {
 	}
 
 	public PropObj[] parsePropJsonData(string json) {
-		return JsonUtility.FromJson<PropObj[]>(json);
+		return JsonHelper.FromJson<PropObj>(json);
 	}
 
-	public OptionList[] parseOptionJsonData(string json) {
-		return JsonHelper.FromJson<OptionList>(json);
+	public List<OptionList> parseOptionJsonData(string json) {
+		return JsonUtility.FromJson<List<OptionList>>(json);
 	}
 }

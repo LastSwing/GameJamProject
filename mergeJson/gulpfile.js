@@ -28,7 +28,7 @@ const mergeFiles = {
 gulp.task('stuff', function (done) {
     let stuffs = fs.readJsonSync('Json/ItemList.json');
 
-    stuffs.forEach(element => {
+    stuffs.Items.forEach(element => {
         let stuffContextName = element.TalkList;
         let stuffOptionName = element.OptionList;
 
@@ -76,8 +76,8 @@ gulp.task('stuff', function (done) {
     else {
         Fs.mkdirSync(path.parse(res).dir);
     }
-    fs.writeJsonSync(res, stuffs);
 
+    fs.writeJsonSync(res, stuffs);
 });
 
 gulp.task('prop', function () {

@@ -17,15 +17,15 @@ public class JsonLoader {
 		return _instance;
 	}
 	// 切换 path
-	public void switchPath(string value) {
+	public void setPath(string value) {
 		_path = value;
 	}
 
 	// 初始化物品数据,通过切换 path
-	public string initJsonData() {
+	public string getJsonData() {
 		string content = "";
 		if (!_path.Equals("")) {
-			Debug.Log("Path is undefined.");
+			Debug.Log("JsonLoader: Path is undefined.");
 			return null;
 		}
 		StreamReader reader = new StreamReader(_path);
@@ -37,14 +37,24 @@ public class JsonLoader {
 		return content;
 	}
 
-	// 解析 stuff json 数据
-	public StuffGroup[] parseStuffJsonData(string json) {
-		StuffGroup[] dataGroups = JsonHelper.FromJson<StuffGroup>(json);
-		return dataGroups;
+	public string getJsonName() {
+		if (_path.Equals("")) {
+			Debug.LogWarning("JsonLoader: _path doesn't setting.");
+			return null;
+		}
+		return Path.GetFileName(_path);
 	}
 
-	public PropGroup[] parsePropJsonData(string json) {
-		PropGroup[] dataGroup = JsonHelper.FromJson<PropGroup>(json);
-		return dataGroup;
+	// 解析 stuff json 数据
+	public StuffGroup[] parseStuffJsonData(string json) {
+		return JsonHelper.FromJson<StuffGroup>(json); ;
+	}
+
+	public propObj[] parsePropJsonData(string json) {
+		return JsonHelper.FromJson<propObj>(json);
+	}
+
+	public optionObj[] parseOptionJsonData(string json) {
+		return JsonHelper.FromJson<optionObj>(json);
 	}
 }

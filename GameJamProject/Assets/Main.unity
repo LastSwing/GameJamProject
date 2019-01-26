@@ -121,7 +121,6 @@ GameObject:
   m_Component:
   - component: {fileID: 41071972}
   - component: {fileID: 41071971}
-  - component: {fileID: 41071973}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -143,9 +142,18 @@ MonoBehaviour:
   SceneRoot: {fileID: 1302615985}
   UIRoot: {fileID: 298709063}
   OtherRoot: {fileID: 0}
-  pressurePoint: 0
-  harmonyPoint: 0
-  healthPoint: 0
+  stuffJsonPath: ./Resources
+  propJsonPaths: []
+  fatherOptionsPath: 
+  childPressValue: 0
+  childHarmonyValue: 0
+  childMoneyValue: 0
+  childHealthyValue: 0
+  fatherPressValue: 0
+  fatherHarmonyValue: 0
+  fatherMoneyValue: 0
+  fatherHealthyValue: 0
+  isDevelop: 1
 --- !u!4 &41071972
 Transform:
   m_ObjectHideFlags: 0
@@ -159,17 +167,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &41071973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 41071970}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04349e8a3101ab64d96dc1d506d524b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &298709062
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +350,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1217312409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 172, y: 97, z: 0}
+  m_LocalPosition: {x: 170, y: 95.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 817621068}

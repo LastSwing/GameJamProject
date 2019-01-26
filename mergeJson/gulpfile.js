@@ -5,10 +5,13 @@ const gulp = require('gulp');
 const globby = require('globby');
 const del = require('del');
 
-const dest = '../GameJamProject/Assets/Resources/Json/Merge/Stuffs.json';
+const deat = '../GameJamProject/Assets/Resources/Json/Merge/';
+const mergeFiles = {
+    stuff: 'Stuffs.json',
+    prop: 'Props.json',
+    father: 'FatherOptions.json'
+};
 
-gulp.task('default', function (done) {
-    let stuffs = fs.readJsonSync('Json/ItemList.json');
 /**
  * stuff prop
  * @param Id {int}
@@ -21,6 +24,9 @@ gulp.task('default', function (done) {
  * @param TalkList {textObj []}
  * @param OptionsList ｛optionObj []｝
  */
+
+gulp.task('stuff', function (done) {
+    let stuffs = fs.readJsonSync('Json/ItemList.json');
 
     stuffs.forEach(element => {
         let stuffContextName = element.TalkList;
@@ -62,12 +68,22 @@ gulp.task('default', function (done) {
         else console.log('optionsList lost');
 
     });
-    if (Fs.existsSync(dest)) {
-        del.sync(dest, {force: true});
+    // create the result
+    let res = dest + mergeFiles.stuff;
+    if (Fs.existsSync(res)) {
+        del.sync(res, {force: true});
     }
     else {
-        Fs.mkdirSync(path.parse(dest).dir);
+        Fs.mkdirSync(path.parse(res).dir);
     }
-    fs.writeJsonSync(dest, stuffs);
+    fs.writeJsonSync(res, stuffs);
+
+});
+
+gulp.task('prop', function () {
+    
+});
+
+gulp.task ('father', function () {
 
 });

@@ -8,6 +8,7 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 {
     public int ID;
     private bool isForce = false;
+	private bool isClock = false;
 	private Highlighter _hightLight;
 	private GameObjectEventManager _manager;
 
@@ -21,6 +22,7 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 		if (isForce)
 		{
 			Debug.Log("Click");
+			isClock = true;
 			_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
 			_manager.startEvent(this);
 		}
@@ -30,6 +32,10 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 	}
 
 	public void setHightLight(Highlighter lighter = null) {
+	}
+
+	public void setClock(bool value) {
+		isClock = true;
 	}
 
 	public void setForce(bool value) {

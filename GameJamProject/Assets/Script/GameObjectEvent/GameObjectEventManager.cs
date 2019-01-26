@@ -18,36 +18,76 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	#region record the data
 	private List<StuffGroup> stuffs = new List<StuffGroup>();
 	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
-	private List<OptionList> fatherOpts = null;
+	private List<OptionList> fatherOpts = new List<OptionList>();
 	#endregion
+	#region currentStuffEvent
+	private Dictionary<int, List<TalkList>> talkDic = new Dictionary<int, List<TalkList>>();
+	private Dictionary<int, List<OptionList>> optionDic = new Dictionary<int, List<OptionList>>();
+	#endregion
+	// 记录当前被点击物体
+	private GameObject currentForceObj = null;
 
 	[Tooltip("All stuff in the Scene")]
-	public GameObject[] stuffList;
-
+	public GameObjectEvent[] stuffList;
 	public GameObject testObj;
 
 	public void Init() {
-		//createStuff();
 		testObj.AddComponent<Highlighter>();
 		testObj.GetComponent<GameObjectEvent>().init(this);
 		FirstDay();
 	}
-	// 重置对象，比如去除所有高亮
-	public void resetStuffHightLight() {}
 
-	public void InitData()
-	{
+	public void InitData() {
 		_loader = JsonLoader.getInstance();
 		loadStuffJson();
 		loadPropJson();
 		//loadFatherJson();
 	}
-
+	// 开始对话
 	public void startEvent(GameObjectEvent obj) {
-		// get id
+		// get the TextList
+		int id = obj.ID;
+		currentForceObj = obj.gameObject;
+
+		StuffGroup group = stuffs.Find(ele => ele.ItemId == id);
+		TalkList[] talkLists = group.TalkList;
+		OptionList[] optionList = group.OptionList;
+		// update the dic
+		analysisTalkList(talkLists);
+		analysisOptionList(optionList);
+		// start convercation
+		convercation();
 	}
 
-	public void resetAllStuff() {}
+	// 对话进行时,
+	public void convercation() {
+		List<TalkList> talkList = talkDic[];
+		//BottomFrameController.Instance.XX(talkList);
+	}
+
+	public void stopConvercation() {
+		clearDicGroup();
+	}
+	// 重置场景所有 stuff
+	public void resetAllStuff() {
+
+	}
+
+	// 清空临时 dictionary
+	public void clearDicGroup()
+	{
+		talkDic.Clear();
+		optionDic.Clear();
+	}
+
+	// 重置对象，比如去除所有高亮
+	public void resetStuffHightLight()
+	{
+		for (int i = 0; i < stuffList.Length; i++)
+		{
+			stuffList[i].setForce(false);
+		}
+	}
 
 	// 第一天数据
 	private void FirstDay() {
@@ -55,6 +95,43 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		// show scrollView block
 	}
 
+	private void analysisTalkList(TalkList[] talkLists) {
+		// create the talkDic
+		for (int i = 0; i < talkLists.Length; i++)
+		{
+			TalkList talk = talkLists[i];
+			int stage = talk.TalkStage;
+			if (talkDic.ContainsKey(stage))
+			{
+				List<TalkList> lists = new List<TalkList>();
+				lists.Add(talk);
+				talkDic.Add(talk.TalkStage, lists);
+			}
+			else
+			{
+				talkDic[stage].Add(talk);
+			}
+		}
+	}
+
+	private void analysisOptionList(OptionList[] optionList) {
+		// create the optionDic
+		for (int i = 0; i < optionList.Length; i++)
+		{
+			OptionList talk = optionList[i];
+			int stage = talk.OptionsStage;
+			if (talkDic.ContainsKey(stage))
+			{
+				List<OptionList> lists = new List<OptionList>();
+				lists.Add(talk);
+				optionDic.Add(talk.OptionsStage, lists);
+			}
+			else
+			{
+				optionDic[stage].Add(talk);
+			}
+		}
+	}
 	// load Stuff Data
 	private void loadStuffJson()
 	{

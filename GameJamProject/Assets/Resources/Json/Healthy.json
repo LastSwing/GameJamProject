@@ -2,35 +2,35 @@
   {
     "Id": 1,
     "KeyName": "1",
-    "PropertyName": "绝望",
+    "HealthyName": "濒危",
     "Mix": 0,
     "Max": 20
   },
   {
     "Id": 2,
     "KeyName": "2",
-    "PropertyName": "抑郁",
+    "HealthyName": "虚弱",
     "Mix": 21,
     "Max": 40
   },
   {
     "Id": 3,
     "KeyName": "3",
-    "PropertyName": "压抑",
+    "HealthyName": "一般",
     "Mix": 41,
     "Max": 60
   },
   {
     "Id": 4,
     "KeyName": "4",
-    "PropertyName": "平常",
+    "HealthyName": "健康",
     "Mix": 61,
     "Max": 80
   },
   {
     "Id": 5,
     "KeyName": "5",
-    "PropertyName": "饱满",
+    "HealthyName": "强壮",
     "Mix": 81,
     "Max": 100
   }

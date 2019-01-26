@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using HighlightingSystem;
 
-public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnterHandler
+public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnterHandler,IPointerExitHandler
 {
     public int ID;
 	private bool isEnter = false;
@@ -18,32 +18,27 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 	}
 
     public void OnPointerClick(PointerEventData eventData) {
-		
+		isClock = true;
+		_manager.startEvent(this);
+	}
+	// show the scrollview
+	public void OnPointerEnter(PointerEventData eventData) {
+		Debug.Log("enter");
+		_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
 	}
 
-	public void setHightLight(Highlighter lighter = null) {
+	public void OnPointerExit(PointerEventData eventData) {
+		_hightLight.ConstantOff();
 	}
 
-	public void setClock(bool value) {
+	public void setClock(bool value)
+	{
 		isClock = true;
 	}
 
-	public void setEnter(bool value) {
+	public void setEnter(bool value)
+	{
 		isEnter = value;
 	}
 
-	// show the scrollview
-	public void OnPointerEnter(PointerEventData eventData) {
-		if (isEnter)
-		{
-			Debug.Log("enter");
-			isClock = true;
-			_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
-			_manager.startEvent(this);
-		}
-		else
-		{
-			_hightLight.ConstantOff();
-		}
-	}
 }

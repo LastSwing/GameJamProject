@@ -14,7 +14,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	public string fatherOptionsPath;
 	// json loader
 	private JsonLoader _loader;
-
+	private RuntimeData runtime;
 	#region record the data
 	private List<StuffGroup> stuffs = new List<StuffGroup>();
 	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
@@ -32,6 +32,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	public GameObject testObj;
 
 	public void Init() {
+		runtime = RuntimeData.instance;
 		testObj.AddComponent<Highlighter>();
 		testObj.GetComponent<GameObjectEvent>().init(this);
 		FirstDay();
@@ -50,6 +51,10 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		currentForceObj = obj.gameObject;
 
 		StuffGroup group = stuffs.Find(ele => ele.ItemId == id);
+		if (group == null) {
+			Debug.LogError("GameObjectEventManager: Stuff Id get error.");
+			return;
+		}
 		TalkList[] talkLists = group.TalkList;
 		OptionList[] optionList = group.OptionList;
 		// update the dic
@@ -66,6 +71,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 	public void stopConvercation() {
 		clearDicGroup();
+		runtime.passDay();
 	}
 	// 重置场景所有 stuff
 	public void resetAllStuff() {
@@ -87,11 +93,6 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	{
 		talkDic.Clear();
 		optionDic.Clear();
-	}
-
-	// 重置对象, 通过 KeyName 值将所有初始对象还原
-	public void resetStuffHightLight() {
-		
 	}
 
 	// 第一天数据

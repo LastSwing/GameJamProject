@@ -40,6 +40,8 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	// development
 	public bool isDevelop = true;
 
+	// Controller Camera -> Room Switch
+
 	void Start () {
 		Init();
 	}
@@ -73,13 +75,14 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 			SwitchRoundTwo();
 		}
 	}
+
 	// show scrollView, and many event summary
 	public void GameOver() {
 
 	}
 
 	public void SwitchRoundTwo() {
-		// 刷新物体状态，不刷物体位置。
+		// 刷新物体状态，不刷物体位置，不切换移动了
 		GameObjectEventManager.instance.resetAllStuff();
 	}
 }

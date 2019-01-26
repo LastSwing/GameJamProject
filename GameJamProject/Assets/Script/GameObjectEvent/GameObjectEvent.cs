@@ -2,24 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using HighlightingSystem;
 
-public class GameObjectEvent : MonoBehaviour, IPointerClickHandler
+public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnterHandler
 {
-
     public int ID;
     private bool isClick;
-    public void Start()
+
+	public void Start()
     {
         isClick = false;
     }
+
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (!isClick)
-        {
+        if (!isClick) {
             isClick = true;
-            //todo
-            //展开剧情
 
         }
     }
+
+	public void OnPointerEnter(PointerEventData eventData) {
+
+	}
 }

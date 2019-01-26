@@ -58,7 +58,7 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
         SceneRoot = GameObject.Find("SceneRoot").transform;
         UIRoot = GameObject.Find("UIRoot").transform;
         OtherRoot = GameObject.Find("OtherRoot").transform;
-
+		StartUIController.Instance.ShowView();
 		_child = new Child(childPressValue, childHarmonyValue, childMoneyValue, childHealthyValue);
 		_father = new Father(fatherPressValue, fatherHarmonyValue, fatherMoneyValue, fatherHealthyValue);
 		_loader = JsonLoader.getInstance();

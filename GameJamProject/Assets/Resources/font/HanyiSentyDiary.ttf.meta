@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 63877f8161d58704ebda08da29c8c833
+timeCreated: 1548516252
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hanyi Senty Diary
+  fontNames:
+  - Hanyi Senty Diary
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

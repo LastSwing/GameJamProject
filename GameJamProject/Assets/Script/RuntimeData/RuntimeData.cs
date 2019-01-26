@@ -5,7 +5,7 @@ using UnityEngine;
 public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 
     public Transform SceneRoot,UIRoot,OtherRoot;
-
+	#region ActionProp
 	public float childPressValue = 0;
 	public float childHarmonyValue = 0;
 	public float childMoneyValue = 0;
@@ -15,14 +15,13 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	public float fatherHarmonyValue = 0;
 	public float fatherMoneyValue = 0;
 	public float fatherHealthyValue = 0;
-
+	#endregion
 	private Child _child;
 	private Father _father;
 
 	private void Start()
 	{
 		Init();
-		ScreenView
 	}
 
 	public void Init()
@@ -34,8 +33,4 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		_child = new Child(childPressValue, childHarmonyValue, childMoneyValue, childHealthyValue);
 		_father = new Father(fatherPressValue, fatherHarmonyValue, fatherMoneyValue, fatherHealthyValue);
     }
-    
-	
-
-
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System;
 
 public class JsonLoader {
 
@@ -24,16 +25,16 @@ public class JsonLoader {
 	// 初始化物品数据,通过切换 path
 	public string getJsonData() {
 		string content = "";
-		if (!_path.Equals("")) {
+		if (String.IsNullOrEmpty(_path)) {
 			Debug.Log("JsonLoader: Path is undefined.");
 			return null;
 		}
-		StreamReader reader = new StreamReader(_path);
+		StreamReader reader = new StreamReader(Application.dataPath + _path);
 		while (!reader.EndOfStream) {
 			string line = reader.ReadLine();
 			content += line;
 		}
-
+		reader.Close();
 		return content;
 	}
 
@@ -47,14 +48,21 @@ public class JsonLoader {
 
 	// 解析 stuff json 数据
 	public StuffGroup[] parseStuffJsonData(string json) {
-		return JsonHelper.FromJson<StuffGroup>(json); ;
+		try
+		{
+			return JsonUtility.FromJson<StuffGroup[]>(json);
+		}
+		catch (Exception e) {
+			Debug.LogWarning(e);
+		}
+		return null;
 	}
 
-	public propObj[] parsePropJsonData(string json) {
-		return JsonHelper.FromJson<propObj>(json);
+	public PropObj[] parsePropJsonData(string json) {
+		return JsonUtility.FromJson<PropObj[]>(json);
 	}
 
-	public optionObj[] parseOptionJsonData(string json) {
-		return JsonHelper.FromJson<optionObj>(json);
+	public OptionList[] parseOptionJsonData(string json) {
+		return JsonHelper.FromJson<OptionList>(json);
 	}
 }

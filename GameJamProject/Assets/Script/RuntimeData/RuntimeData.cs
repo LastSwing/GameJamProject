@@ -37,8 +37,8 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 
 	// record the data
 	private StuffGroup[] stuffs = null;
-	private Dictionary<string, propObj[]> propDic = new Dictionary<string, propObj[]>();
-	private optionObj[] fatherOpts = null;
+	private Dictionary<string, PropObj[]> propDic = new Dictionary<string, PropObj[]>();
+	private OptionList[] fatherOpts = null;
 	// development
 	public bool isDevelop = true;
 
@@ -92,7 +92,7 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 				_loader.setPath(path);
 				string name = _loader.getJsonName();
 				string content = _loader.getJsonData();
-				propObj[] prop = _loader.parsePropJsonData(content);
+				PropObj[] prop = _loader.parsePropJsonData(content);
 				propDic.Add(name, prop);
 				
 			}

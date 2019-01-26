@@ -4,10 +4,10 @@ using UnityEngine;
 using System;
 
 [Serializable]
-public class propObj {
-	public int Id = -1;
-	public string KeyName = "";
-	public string HappinessName = "";
-	public int Min = 0;
-	public int Max = 20;
+public class PropObj {
+	public int Id;
+	public string KeyName;
+	public string Type;
+	public int Min;
+	public int Max;
 }

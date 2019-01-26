@@ -142,8 +142,12 @@ MonoBehaviour:
   SceneRoot: {fileID: 1302615985}
   UIRoot: {fileID: 298709063}
   OtherRoot: {fileID: 0}
-  stuffJsonPath: ./Resources
-  propJsonPaths: []
+  stuffJsonPath: ./Resources/Json/Merge/Stuffs.json
+  propJsonPaths:
+  - ./Resources/Json/PropertyList/Happiness.json
+  - ./Resources/Json/PropertyList/Healthy.json
+  - ./Resources/Json/PropertyList/Pressure.json
+  - ./Resources/Json/PropertyList/Happiness.json
   fatherOptionsPath: 
   childPressValue: 0
   childHarmonyValue: 0

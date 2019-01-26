@@ -5,7 +5,7 @@ const gulp = require('gulp');
 const globby = require('globby');
 const del = require('del');
 
-const deat = '../GameJamProject/Assets/Resources/Json/Merge/';
+const dest = '../GameJamProject/Assets/Resources/Json/Merge/';
 const mergeFiles = {
     stuff: 'Stuffs.json',
     prop: 'Props.json',
@@ -81,7 +81,7 @@ gulp.task('stuff', function (done) {
 });
 
 gulp.task('prop', function () {
-    
+
 });
 
 gulp.task ('father', function () {

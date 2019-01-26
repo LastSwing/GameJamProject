@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "HappinessName": "绝望",
+    "Mix": 0,
+    "Max": 20
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "HappinessName": "不幸",
+    "Mix": 21,
+    "Max": 40
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "HappinessName": "磕绊",
+    "Mix": 41,
+    "Max": 60
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "HappinessName": "正常",
+    "Mix": 61,
+    "Max": 80
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "HappinessName": "满足",
+    "Mix": 81,
+    "Max": 100
+  }
+]

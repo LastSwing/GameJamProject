@@ -1,0 +1,73 @@
+const fs = require('fs-extra');
+const Fs = require('fs');
+const path = require('path');
+const gulp = require('gulp');
+const globby = require('globby');
+const del = require('del');
+
+const dest = '../GameJamProject/Assets/Resources/Json/Merge/Stuffs.json';
+
+gulp.task('default', function (done) {
+    let stuffs = fs.readJsonSync('Json/ItemList.json');
+/**
+ * stuff prop
+ * @param Id {int}
+ * @param KeyName {string}
+ * @param ItemId {int}
+ * @param ItemName {string}
+ * @param ItemModel ｛string｝
+ * @param ItemSchedule {string}
+ * @param ItemExplain {string}
+ * @param TalkList {textObj []}
+ * @param OptionsList ｛optionObj []｝
+ */
+
+    stuffs.forEach(element => {
+        let stuffContextName = element.TalkList;
+        let stuffOptionName = element.OptionList;
+
+        let talkList, optionsList;
+        // load TalkList
+        let contextfiles = globby.sync('./Json/TalkTextList/*');
+        contextfiles.forEach(obj => {
+            let pathObj = path.parse(obj);
+            let name = pathObj.name;
+            // lost data
+            if (!name) {
+                console.log("TalkList obj lost Data.");
+            }
+
+            if (name === stuffContextName) {
+                talkList = fs.readJsonSync(obj);
+            }
+        });
+
+        // load options
+        let optionfiles = globby.sync('./Json/OptionsTextList/*');
+        optionfiles.forEach(obj => {
+            let pathObj = path.parse(obj);
+            let name = pathObj.name;
+            // options lost data
+            if (!name) {
+                console.log("OptionList obj lost Data.");
+            }
+
+            if (name === stuffOptionName) {
+                optionsList = fs.readJsonSync(obj);
+            }
+        });
+        if (talkList)  element.TalkList = talkList;
+        else console.log("talkList lost");
+        if (optionsList) element.OptionList = optionsList;
+        else console.log('optionsList lost');
+
+    });
+    if (Fs.existsSync(dest)) {
+        del.sync(dest, {force: true});
+    }
+    else {
+        Fs.mkdirSync(path.parse(dest).dir);
+    }
+    fs.writeJsonSync(dest, stuffs);
+
+});

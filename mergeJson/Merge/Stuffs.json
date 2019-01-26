@@ -1,0 +1,240 @@
+[
+    {
+        "Id": 1,
+        "KeyName": "1",
+        "ItemId": 853701,
+        "ItemName": "杯子",
+        "ItemModel": "Art",
+        "ItemSchedule": "1",
+        "ItemExplain": "一个形状怪异的杯子",
+        "TalkList": [
+            {
+                "Id": 1,
+                "KeyName": "1",
+                "Index": 1,
+                "TalkStage": 1,
+                "Object": 0,
+                "OptionsNumber": 0,
+                "TalkText": "(这个杯子和其他的有些不一样)",
+                "ItemSchedule": 0
+            },
+            {
+                "Id": 2,
+                "KeyName": "2",
+                "Index": 1,
+                "TalkStage": 1,
+                "Object": 2,
+                "OptionsNumber": 0,
+                "TalkText": "不要动那个杯子。",
+                "ItemSchedule": 0
+            },
+            {
+                "Id": 3,
+                "KeyName": "3",
+                "Index": 2,
+                "TalkStage": 2,
+                "Object": 2,
+                "OptionsNumber": 0,
+                "TalkText": "我说了,不要动它！",
+                "ItemSchedule": 0
+            },
+            {
+                "Id": 4,
+                "KeyName": "4",
+                "Index": 2,
+                "TalkStage": 2,
+                "Object": 1,
+                "OptionsNumber": 0,
+                "TalkText": "这个杯子怎么了？",
+                "ItemSchedule": 0
+            },
+            {
+                "Id": 5,
+                "KeyName": "5",
+                "Index": 2,
+                "TalkStage": 2,
+                "Object": 2,
+                "OptionsNumber": 0,
+                "TalkText": "这和你没关系。",
+                "ItemSchedule": 0
+            },
+            {
+                "Id": 6,
+                "KeyName": "6",
+                "Index": 2,
+                "TalkStage": 2,
+                "Object": 1,
+                "OptionsNumber": 0,
+                "TalkText": "（默默放下杯子）",
+                "ItemSchedule": 2
+            },
+            {
+                "Id": 7,
+                "KeyName": "7",
+                "Index": 3,
+                "TalkStage": 3,
+                "Object": 2,
+                "OptionsNumber": 0,
+                "TalkText": "这和你没关系。",
+                "ItemSchedule": 0
+            },
+            {
+                "Id": 8,
+                "KeyName": "8",
+                "Index": 3,
+                "TalkStage": 3,
+                "Object": 0,
+                "OptionsNumber": 0,
+                "TalkText": "（默默放下杯子）",
+                "ItemSchedule": 2
+            },
+            {
+                "Id": 9,
+                "KeyName": "9",
+                "Index": 4,
+                "TalkStage": 4,
+                "Object": 2,
+                "OptionsNumber": 0,
+                "TalkText": "等时机到了，自然会跟你解释。",
+                "ItemSchedule": 2
+            }
+        ],
+        "OptionList": [
+            {
+                "Id": 1,
+                "KeyName": "1",
+                "Index": 2,
+                "OptionsStage": 1,
+                "OptionNumber": 0,
+                "OptionsText": "（不理睬，继续摆弄）",
+                "Pressure": 0,
+                "Healthy": 0,
+                "Happiness": -2,
+                "Riches": 0
+            },
+            {
+                "Id": 2,
+                "KeyName": "2",
+                "Index": 3,
+                "OptionsStage": 1,
+                "OptionNumber": 0,
+                "OptionsText": "为什么？",
+                "Pressure": 1,
+                "Healthy": 0,
+                "Happiness": -1,
+                "Riches": 0
+            },
+            {
+                "Id": 3,
+                "KeyName": "3",
+                "Index": 4,
+                "OptionsStage": 1,
+                "OptionNumber": 0,
+                "OptionsText": "（放下）",
+                "Pressure": 1,
+                "Healthy": 0,
+                "Happiness": 0,
+                "Riches": 0
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "KeyName": "2",
+        "ItemId": 853701,
+        "ItemName": "杯子",
+        "ItemModel": "Art",
+        "ItemSchedule": "2",
+        "ItemExplain": "父亲很在意的形状怪异的杯子",
+        "TalkList": "TalkCup02",
+        "OptionList": "OptionsCup02"
+    },
+    {
+        "Id": 3,
+        "KeyName": "3",
+        "ItemId": 853701,
+        "ItemName": "杯子",
+        "ItemModel": "Art",
+        "ItemSchedule": "3",
+        "ItemExplain": "母亲亲手做的杯子",
+        "TalkList": "TalkCup03",
+        "OptionList": "OptionsCup03"
+    },
+    {
+        "Id": 4,
+        "KeyName": "4",
+        "ItemId": 0,
+        "ItemName": "",
+        "ItemModel": "",
+        "ItemSchedule": "",
+        "ItemExplain": "",
+        "TalkList": "",
+        "OptionList": ""
+    },
+    {
+        "Id": 5,
+        "KeyName": "5",
+        "ItemId": 0,
+        "ItemName": "",
+        "ItemModel": "",
+        "ItemSchedule": "",
+        "ItemExplain": "",
+        "TalkList": "",
+        "OptionList": ""
+    },
+    {
+        "Id": 6,
+        "KeyName": "6",
+        "ItemId": 0,
+        "ItemName": "",
+        "ItemModel": "",
+        "ItemSchedule": "",
+        "ItemExplain": "",
+        "TalkList": "",
+        "OptionList": ""
+    },
+    {
+        "Id": 7,
+        "KeyName": "7",
+        "ItemId": 0,
+        "ItemName": "",
+        "ItemModel": "",
+        "ItemSchedule": "",
+        "ItemExplain": "",
+        "TalkList": "",
+        "OptionList": ""
+    },
+    {
+        "Id": 8,
+        "KeyName": "8",
+        "ItemId": 0,
+        "ItemName": "",
+        "ItemModel": "",
+        "ItemSchedule": "",
+        "ItemExplain": "",
+        "TalkList": "",
+        "OptionList": ""
+    },
+    {
+        "Id": 9,
+        "KeyName": "9",
+        "ItemId": 0,
+        "ItemName": "",
+        "ItemModel": "",
+        "ItemSchedule": "",
+        "ItemExplain": "",
+        "TalkList": "",
+        "OptionList": ""
+    },
+    {
+        "Id": 10,
+        "KeyName": "10",
+        "ItemId": 0,
+        "ItemName": "",
+        "ItemModel": "",
+        "ItemSchedule": "",
+        "ItemExplain": "",
+        "TalkList": "",
+        "OptionList": ""
+    }
+]

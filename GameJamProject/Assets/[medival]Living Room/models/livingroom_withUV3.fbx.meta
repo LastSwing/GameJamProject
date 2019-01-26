@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 07bd09b95d951844687283d8cffdda0d
+timeCreated: 1548527066
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: barrel
+    100002: barrel.001
+    100004: Cube.007
+    100006: Cube.008
+    100008: Cube.009
+    100010: Cube.017
+    100012: Cube.027
+    100014: Cylinder
+    100016: Cylinder.003
+    100018: Cylinder.005
+    100020: desk
+    100022: fireplace
+    100024: //RootNode
+    100026: roof
+    100028: structure
+    100030: structure.001
+    100032: structure.002
+    100034: structure.003
+    100036: structure.004
+    100038: structure.005
+    100040: structure.006
+    100042: sword_2
+    100044: "\u5E73\u9762"
+    100046: "\u5E73\u9762.001"
+    100048: "\u6444\u50CF\u673A"
+    100050: "\u67F1\u4F53.005"
+    100052: "\u67F1\u4F53.006"
+    100054: "\u7ACB\u65B9\u4F53"
+    100056: "\u7ACB\u65B9\u4F53.001"
+    100058: "\u9762\u5149"
+    100060: "\u9762\u5149.001"
+    400000: barrel
+    400002: barrel.001
+    400004: Cube.007
+    400006: Cube.008
+    400008: Cube.009
+    400010: Cube.017
+    400012: Cube.027
+    400014: Cylinder
+    400016: Cylinder.003
+    400018: Cylinder.005
+    400020: desk
+    400022: fireplace
+    400024: //RootNode
+    400026: roof
+    400028: structure
+    400030: structure.001
+    400032: structure.002
+    400034: structure.003
+    400036: structure.004
+    400038: structure.005
+    400040: structure.006
+    400042: sword_2
+    400044: "\u5E73\u9762"
+    400046: "\u5E73\u9762.001"
+    400048: "\u6444\u50CF\u673A"
+    400050: "\u67F1\u4F53.005"
+    400052: "\u67F1\u4F53.006"
+    400054: "\u7ACB\u65B9\u4F53"
+    400056: "\u7ACB\u65B9\u4F53.001"
+    400058: "\u9762\u5149"
+    400060: "\u9762\u5149.001"
+    2000000: "\u6444\u50CF\u673A"
+    2300000: barrel
+    2300002: barrel.001
+    2300004: Cube.007
+    2300006: Cube.008
+    2300008: Cube.009
+    2300010: Cube.017
+    2300012: Cube.027
+    2300014: Cylinder
+    2300016: Cylinder.003
+    2300018: Cylinder.005
+    2300020: desk
+    2300022: fireplace
+    2300024: roof
+    2300026: structure
+    2300028: structure.001
+    2300030: structure.002
+    2300032: structure.003
+    2300034: structure.004
+    2300036: structure.005
+    2300038: structure.006
+    2300040: sword_2
+    2300042: "\u5E73\u9762"
+    2300044: "\u5E73\u9762.001"
+    2300046: "\u67F1\u4F53.005"
+    2300048: "\u67F1\u4F53.006"
+    2300050: "\u7ACB\u65B9\u4F53"
+    2300052: "\u7ACB\u65B9\u4F53.001"
+    3300000: barrel
+    3300002: barrel.001
+    3300004: Cube.007
+    3300006: Cube.008
+    3300008: Cube.009
+    3300010: Cube.017
+    3300012: Cube.027
+    3300014: Cylinder
+    3300016: Cylinder.003
+    3300018: Cylinder.005
+    3300020: desk
+    3300022: fireplace
+    3300024: roof
+    3300026: structure
+    3300028: structure.001
+    3300030: structure.002
+    3300032: structure.003
+    3300034: structure.004
+    3300036: structure.005
+    3300038: structure.006
+    3300040: sword_2
+    3300042: "\u5E73\u9762"
+    3300044: "\u5E73\u9762.001"
+    3300046: "\u67F1\u4F53.005"
+    3300048: "\u67F1\u4F53.006"
+    3300050: "\u7ACB\u65B9\u4F53"
+    3300052: "\u7ACB\u65B9\u4F53.001"
+    4300000: Cube.008
+    4300002: roof
+    4300004: structure
+    4300006: desk
+    4300008: Cylinder.005
+    4300010: structure.001
+    4300012: structure.002
+    4300014: structure.003
+    4300016: structure.004
+    4300018: structure.005
+    4300020: structure.006
+    4300022: fireplace
+    4300024: Cube.007
+    4300026: Cylinder
+    4300028: barrel.001
+    4300030: barrel
+    4300032: Cube.017
+    4300034: Cylinder.003
+    4300036: Cube.027
+    4300038: Cube.009
+    4300040: "\u7ACB\u65B9\u4F53"
+    4300042: "\u5E73\u9762"
+    4300044: "\u5E73\u9762.001"
+    4300046: sword_2
+    4300048: "\u7ACB\u65B9\u4F53.001"
+    4300050: "\u67F1\u4F53.005"
+    4300052: "\u67F1\u4F53.006"
+    10800000: "\u9762\u5149"
+    10800002: "\u9762\u5149.001"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: f905b13f0e9a23c48bdd8b1043a74302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 78385a90b1c68ae4eaed38814dabb623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TimberThree
+    second: {fileID: 2100000, guid: 5147903aa248ca04f8769759a2783bd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TimberTwo
+    second: {fileID: 2100000, guid: 27c9a6b9fa4c32845b4d8d3e724956a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick
+    second: {fileID: 2100000, guid: f6bdf6db8f9859445bd4fc57b1e5ef9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bright brick
+    second: {fileID: 2100000, guid: d5c520e574ba57f4a8f1b60bcb21a034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkBrick
+    second: {fileID: 2100000, guid: 8c42dd050fb8d9e40b1ed35af04e0ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkRock
+    second: {fileID: 2100000, guid: 9fde23f887a152846b0dcb44ca4a4205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkRock.001
+    second: {fileID: 2100000, guid: f89531eed1d10e04d897394f1a28e92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkTimber
+    second: {fileID: 2100000, guid: 358ee50bae04547479f8e5f5ade0a2f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ditan
+    second: {fileID: 2100000, guid: 13f1f93a238c1db449956635374bb285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: 75cd8d1749a8009478118ecec695df04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door frame
+    second: {fileID: 2100000, guid: 5088bded1c733cd47bfdc004ae9b69e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyeball
+    second: {fileID: 2100000, guid: ccb798d2d1d2d1446917705dba6b49f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyeball2
+    second: {fileID: 2100000, guid: 75f9023d04b05f4449e616b38de2b7c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyeball3
+    second: {fileID: 2100000, guid: f01893f44b996bb42979ef4717ec0ada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: owlMouth
+    second: {fileID: 2100000, guid: 270fe13eb5673284e99c975a0a578367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: owlOne
+    second: {fileID: 2100000, guid: 32ebb2c1be8e4e84fa85ba398022ff98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: owlThree
+    second: {fileID: 2100000, guid: 9790be41336a7bf439d84c60fdd8a13e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: owlTwo
+    second: {fileID: 2100000, guid: 9b7154d23be5b5e49ad58913a4aba162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: timber
+    second: {fileID: 2100000, guid: 88c2eea31b71b7c45974efc27f969e68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wineEdge
+    second: {fileID: 2100000, guid: b30bd9dddce1a444796e888c223a5932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28"
+    second: {fileID: 2100000, guid: 365ca9b6dd2fc4649985d8e4ce92af37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28.001"
+    second: {fileID: 2100000, guid: 6a4483f1826108d4283daf560df2f629, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

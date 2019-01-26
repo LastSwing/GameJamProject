@@ -53,4 +53,6 @@ public class BasicActor {
 	public virtual void ReCalculMoneyValue() { }
 	public virtual void ReCalculHealthyValue() { }
 
+
+
 }

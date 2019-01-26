@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 6cba13d071f771a469170992a1a53f0e
+timeCreated: 1548530133
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: candle
+    100002: candle.001
+    100004: Cube
+    100006: Cube.000
+    100008: Cube.001
+    100010: Cube.003
+    100012: Cube.004
+    100014: Cube.005
+    100016: Cube.010
+    100018: Cube.011
+    100020: Cube.012
+    100022: Cube.013
+    100024: Cylinder.008
+    100026: Cylinder.009
+    100028: Cylinder.010
+    100030: Cylinder.011
+    100032: Cylinder.012
+    100034: Cylinder.013
+    100036: Cylinder.014
+    100038: Cylinder.015
+    100040: Cylinder.016
+    100042: Cylinder.017
+    100044: Cylinder.018
+    100046: Cylinder.019
+    100048: Cylinder.020
+    100050: Cylinder.021
+    100052: Cylinder.022
+    100054: Cylinder.023
+    100056: Cylinder.024
+    100058: Cylinder.025
+    100060: Cylinder.026
+    100062: Cylinder.027
+    100064: Cylinder.028
+    100066: Cylinder.029
+    100068: Cylinder.030
+    100070: Cylinder.031
+    100072: Cylinder.032
+    100074: Cylinder.033
+    100076: Cylinder.034
+    100078: Cylinder.035
+    100080: Cylinder.036
+    100082: Cylinder.037
+    100084: Cylinder.038
+    100086: DOOM
+    100088: Icosphere
+    100090: Icosphere.001
+    100092: Icosphere.002
+    100094: Icosphere.003
+    100096: Icosphere.004
+    100098: Icosphere.005
+    100100: Icosphere.006
+    100102: //RootNode
+    100104: Sphere
+    100106: Sphere.001
+    100108: Sphere.002
+    100110: Sphere.003
+    400000: candle
+    400002: candle.001
+    400004: Cube
+    400006: Cube.000
+    400008: Cube.001
+    400010: Cube.003
+    400012: Cube.004
+    400014: Cube.005
+    400016: Cube.010
+    400018: Cube.011
+    400020: Cube.012
+    400022: Cube.013
+    400024: Cylinder.008
+    400026: Cylinder.009
+    400028: Cylinder.010
+    400030: Cylinder.011
+    400032: Cylinder.012
+    400034: Cylinder.013
+    400036: Cylinder.014
+    400038: Cylinder.015
+    400040: Cylinder.016
+    400042: Cylinder.017
+    400044: Cylinder.018
+    400046: Cylinder.019
+    400048: Cylinder.020
+    400050: Cylinder.021
+    400052: Cylinder.022
+    400054: Cylinder.023
+    400056: Cylinder.024
+    400058: Cylinder.025
+    400060: Cylinder.026
+    400062: Cylinder.027
+    400064: Cylinder.028
+    400066: Cylinder.029
+    400068: Cylinder.030
+    400070: Cylinder.031
+    400072: Cylinder.032
+    400074: Cylinder.033
+    400076: Cylinder.034
+    400078: Cylinder.035
+    400080: Cylinder.036
+    400082: Cylinder.037
+    400084: Cylinder.038
+    400086: DOOM
+    400088: Icosphere
+    400090: Icosphere.001
+    400092: Icosphere.002
+    400094: Icosphere.003
+    400096: Icosphere.004
+    400098: Icosphere.005
+    400100: Icosphere.006
+    400102: //RootNode
+    400104: Sphere
+    400106: Sphere.001
+    400108: Sphere.002
+    400110: Sphere.003
+    2300000: candle
+    2300002: candle.001
+    2300004: Cube
+    2300006: Cube.000
+    2300008: Cube.001
+    2300010: Cube.003
+    2300012: Cube.004
+    2300014: Cube.005
+    2300016: Cube.010
+    2300018: Cube.011
+    2300020: Cube.012
+    2300022: Cube.013
+    2300024: Cylinder.008
+    2300026: Cylinder.009
+    2300028: Cylinder.010
+    2300030: Cylinder.011
+    2300032: Cylinder.012
+    2300034: Cylinder.013
+    2300036: Cylinder.014
+    2300038: Cylinder.015
+    2300040: Cylinder.016
+    2300042: Cylinder.017
+    2300044: Cylinder.018
+    2300046: Cylinder.019
+    2300048: Cylinder.020
+    2300050: Cylinder.021
+    2300052: Cylinder.022
+    2300054: Cylinder.023
+    2300056: Cylinder.024
+    2300058: Cylinder.025
+    2300060: Cylinder.026
+    2300062: Cylinder.027
+    2300064: Cylinder.028
+    2300066: Cylinder.029
+    2300068: Cylinder.030
+    2300070: Cylinder.031
+    2300072: Cylinder.032
+    2300074: Cylinder.033
+    2300076: Cylinder.034
+    2300078: Cylinder.035
+    2300080: Cylinder.036
+    2300082: Cylinder.037
+    2300084: Cylinder.038
+    2300086: DOOM
+    2300088: Icosphere
+    2300090: Icosphere.001
+    2300092: Icosphere.002
+    2300094: Icosphere.003
+    2300096: Icosphere.004
+    2300098: Icosphere.005
+    2300100: Icosphere.006
+    2300102: Sphere
+    2300104: Sphere.001
+    2300106: Sphere.002
+    2300108: Sphere.003
+    3300000: candle
+    3300002: candle.001
+    3300004: Cube
+    3300006: Cube.000
+    3300008: Cube.001
+    3300010: Cube.003
+    3300012: Cube.004
+    3300014: Cube.005
+    3300016: Cube.010
+    3300018: Cube.011
+    3300020: Cube.012
+    3300022: Cube.013
+    3300024: Cylinder.008
+    3300026: Cylinder.009
+    3300028: Cylinder.010
+    3300030: Cylinder.011
+    3300032: Cylinder.012
+    3300034: Cylinder.013
+    3300036: Cylinder.014
+    3300038: Cylinder.015
+    3300040: Cylinder.016
+    3300042: Cylinder.017
+    3300044: Cylinder.018
+    3300046: Cylinder.019
+    3300048: Cylinder.020
+    3300050: Cylinder.021
+    3300052: Cylinder.022
+    3300054: Cylinder.023
+    3300056: Cylinder.024
+    3300058: Cylinder.025
+    3300060: Cylinder.026
+    3300062: Cylinder.027
+    3300064: Cylinder.028
+    3300066: Cylinder.029
+    3300068: Cylinder.030
+    3300070: Cylinder.031
+    3300072: Cylinder.032
+    3300074: Cylinder.033
+    3300076: Cylinder.034
+    3300078: Cylinder.035
+    3300080: Cylinder.036
+    3300082: Cylinder.037
+    3300084: Cylinder.038
+    3300086: DOOM
+    3300088: Icosphere
+    3300090: Icosphere.001
+    3300092: Icosphere.002
+    3300094: Icosphere.003
+    3300096: Icosphere.004
+    3300098: Icosphere.005
+    3300100: Icosphere.006
+    3300102: Sphere
+    3300104: Sphere.001
+    3300106: Sphere.002
+    3300108: Sphere.003
+    4300000: Sphere.003
+    4300002: Cylinder.038
+    4300004: Icosphere.006
+    4300006: Cylinder.008
+    4300008: Sphere.002
+    4300010: Sphere.001
+    4300012: Sphere
+    4300014: Cube.013
+    4300016: Cylinder.037
+    4300018: Cylinder.036
+    4300020: Cylinder.014
+    4300022: Icosphere.005
+    4300024: Icosphere.004
+    4300026: Cube.005
+    4300028: Cube.004
+    4300030: Cube.001
+    4300032: Icosphere.003
+    4300034: Icosphere.002
+    4300036: Icosphere.001
+    4300038: Icosphere
+    4300040: candle.001
+    4300042: candle
+    4300044: Cube.012
+    4300046: Cube
+    4300048: Cylinder.035
+    4300050: Cylinder.034
+    4300052: Cylinder.033
+    4300054: Cylinder.032
+    4300056: Cylinder.031
+    4300058: Cylinder.030
+    4300060: Cylinder.029
+    4300062: Cylinder.028
+    4300064: Cylinder.027
+    4300066: Cylinder.026
+    4300068: Cylinder.025
+    4300070: Cylinder.024
+    4300072: Cylinder.023
+    4300074: Cylinder.022
+    4300076: Cylinder.021
+    4300078: Cylinder.020
+    4300080: Cylinder.019
+    4300082: Cylinder.018
+    4300084: Cylinder.017
+    4300086: Cylinder.016
+    4300088: Cylinder.015
+    4300090: Cube.011
+    4300092: Cylinder.013
+    4300094: Cylinder.012
+    4300096: Cylinder.011
+    4300098: Cube.000
+    4300100: DOOM
+    4300102: Cube.010
+    4300104: Cube.003
+    4300106: Cylinder.010
+    4300108: Cylinder.009
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BreadOne
+    second: {fileID: 2100000, guid: 0bdb70de0119c9e4fb97633fee628d93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BreadThree
+    second: {fileID: 2100000, guid: 884cbab0d6f739e47b831825037a2ca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BreadTwo
+    second: {fileID: 2100000, guid: 0b80d9bd2289d284f87601ecf3bb018c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrickWall
+    second: {fileID: 2100000, guid: 21bd396763d1b924d8eac404c08f48b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire
+    second: {fileID: 2100000, guid: e81005154c060814ca6dd484c7d6db99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 880c1700b535798499f4f59f16997643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: c97e760de40210a4b8e16bca85ff1832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TimberTwo
+    second: {fileID: 2100000, guid: 6944284ac2f6f2b4f80365fa4f1c0479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brickLight
+    second: {fileID: 2100000, guid: 1dec78be2c486b349b1c014f145226ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brickMid
+    second: {fileID: 2100000, guid: a29bde148fe8c4c4fa013be45e1afb00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: candle
+    second: {fileID: 2100000, guid: dc03db5ddba6acd44a9c247d5f445ee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dandelion
+    second: {fileID: 2100000, guid: 0d831f0bf05728b4aafd8b6510c61ef5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkBrick
+    second: {fileID: 2100000, guid: f5c2c442ef562284bbc18d430451eefb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkRock
+    second: {fileID: 2100000, guid: f9bdf5f8fa099de46822bba3c5c23c91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkTimber
+    second: {fileID: 2100000, guid: fdc356941856cd34d909caca008fa0db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkTimber.001
+    second: {fileID: 2100000, guid: 913b57e0f01c3ac47966df6a09f4a58f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: 2adb2f9a6ed9c5248a5e7bb0aa9dee55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soup
+    second: {fileID: 2100000, guid: bb7ac6db7236d5c42b247fc2f2aa8c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: timber.001
+    second: {fileID: 2100000, guid: 6ade04ecc5b69674eaefa87c98f701c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: timberTwo
+    second: {fileID: 2100000, guid: 6944284ac2f6f2b4f80365fa4f1c0479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wineEdge.001
+    second: {fileID: 2100000, guid: e91a8dd1402956f43b61b8a1a3551587, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -61,7 +61,6 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 	// 对话进行时,
 	public void convercation() {
-		List<TalkList> talkList = talkDic[];
 		//BottomFrameController.Instance.XX(talkList);
 	}
 
@@ -70,7 +69,17 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	}
 	// 重置场景所有 stuff
 	public void resetAllStuff() {
-
+		for (int i = 0; i < stuffs.Count; i++) {
+			StuffGroup stuff = stuffs[i];
+			for (int j = 0; j < stuffList.Length; j++)
+			{
+				GameObject obj = stuffList[j].gameObject;
+				GameObjectEvent gbEvent = stuffList[j];
+				obj.SetActive(stuff.KeyName.Equals("1"));
+				gbEvent.setClock(false);
+				gbEvent.setEnter(false);
+			}
+		}
 	}
 
 	// 清空临时 dictionary
@@ -80,13 +89,9 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		optionDic.Clear();
 	}
 
-	// 重置对象，比如去除所有高亮
-	public void resetStuffHightLight()
-	{
-		for (int i = 0; i < stuffList.Length; i++)
-		{
-			stuffList[i].setForce(false);
-		}
+	// 重置对象, 通过 KeyName 值将所有初始对象还原
+	public void resetStuffHightLight() {
+		
 	}
 
 	// 第一天数据

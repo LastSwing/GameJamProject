@@ -7,7 +7,7 @@ using HighlightingSystem;
 public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnterHandler
 {
     public int ID;
-    private bool isForce = false;
+	private bool isEnter = false;
 	private bool isClock = false;
 	private Highlighter _hightLight;
 	private GameObjectEventManager _manager;
@@ -18,17 +18,7 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 	}
 
     public void OnPointerClick(PointerEventData eventData) {
-		isForce = !isForce;
-		if (isForce)
-		{
-			Debug.Log("Click");
-			isClock = true;
-			_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
-			_manager.startEvent(this);
-		}
-		else {
-			_hightLight.ConstantOff();
-		}
+		
 	}
 
 	public void setHightLight(Highlighter lighter = null) {
@@ -38,11 +28,22 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 		isClock = true;
 	}
 
-	public void setForce(bool value) {
-		isForce = value;
+	public void setEnter(bool value) {
+		isEnter = value;
 	}
+
 	// show the scrollview
 	public void OnPointerEnter(PointerEventData eventData) {
-
+		if (isEnter)
+		{
+			Debug.Log("enter");
+			isClock = true;
+			_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
+			_manager.startEvent(this);
+		}
+		else
+		{
+			_hightLight.ConstantOff();
+		}
 	}
 }

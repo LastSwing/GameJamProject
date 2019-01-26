@@ -5,15 +5,37 @@ using UnityEngine;
 public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 
     public Transform SceneRoot,UIRoot,OtherRoot;
-    public int pressurePoint;//压力
-    public int harmonyPoint;//和睦值
-    public int healthPoint;//健康
-    public void Init()
+
+	public float childPressValue = 0;
+	public float childHarmonyValue = 0;
+	public float childMoneyValue = 0;
+	public float childHealthyValue = 0;
+
+	public float fatherPressValue = 0;
+	public float fatherHarmonyValue = 0;
+	public float fatherMoneyValue = 0;
+	public float fatherHealthyValue = 0;
+
+	private Child _child;
+	private Father _father;
+
+	private void Start()
+	{
+		Init();
+		ScreenView
+	}
+
+	public void Init()
     {
         SceneRoot = GameObject.Find("SceneRoot").transform;
         UIRoot = GameObject.Find("UIRoot").transform;
         OtherRoot = GameObject.Find("OtherRoot").transform;
+
+		_child = new Child(childPressValue, childHarmonyValue, childMoneyValue, childHealthyValue);
+		_father = new Father(fatherPressValue, fatherHarmonyValue, fatherMoneyValue, fatherHealthyValue);
     }
     
+	
+
 
 }

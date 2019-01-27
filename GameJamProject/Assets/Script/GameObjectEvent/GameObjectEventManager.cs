@@ -67,7 +67,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	// 对话进行时,
 	public void convercation() {
 		
-        BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic);
+        BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic, fatherOpts);
     }
 
     public void stopConvercation() {
@@ -108,7 +108,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		{
 			TalkList talk = talkLists[i];
 			int stage = talk.TalkStage;
-			if (talkDic.ContainsKey(stage))
+			if (!talkDic.ContainsKey(stage))
 			{
 				List<TalkList> lists = new List<TalkList>();
 				lists.Add(talk);
@@ -127,7 +127,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		{
 			OptionList talk = optionList[i];
 			int stage = talk.OptionsStage;
-			if (talkDic.ContainsKey(stage))
+			if (!optionDic.ContainsKey(stage))
 			{
 				List<OptionList> lists = new List<OptionList>();
 				lists.Add(talk);

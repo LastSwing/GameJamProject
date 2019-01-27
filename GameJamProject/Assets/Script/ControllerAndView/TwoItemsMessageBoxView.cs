@@ -31,17 +31,21 @@ public class TwoItemsMessageBoxView : BaseUIView
     }
     protected override void InitEvent()
     {
-        base.InitEvent();
-
-    }
-    public void Btn1Click(GameObject go)
+		EventTriggerListener.Get(Button1).onClick = Btn1Click;
+		EventTriggerListener.Get(Button2).onClick = Btn2Click;
+	}
+	public void Btn1Click(GameObject go)
     {
-        BottomFrameController.Instance.View.nowStage = option1.Index;
-        BottomFrameController.Instance.View.UpdateText();
+		BottomFrameController.Instance.View.UpdateFatherText();
+		BottomFrameController.Instance.View.setTalkListStage(option1.Index);
+		BottomFrameController.Instance.View.UpdateText();
+		TwoItemsMessageBoxController.Instance.HideView();
     }
     public void Btn2Click(GameObject go)
     {
-        BottomFrameController.Instance.View.nowStage = option2.Index;
-        BottomFrameController.Instance.View.UpdateText();
-    }
+		BottomFrameController.Instance.View.UpdateFatherText();
+		BottomFrameController.Instance.View.setTalkListStage(option2.Index);
+		BottomFrameController.Instance.View.UpdateText();
+		TwoItemsMessageBoxController.Instance.HideView();
+	}
 }

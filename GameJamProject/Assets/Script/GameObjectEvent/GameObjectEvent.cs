@@ -18,8 +18,11 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 	}
 
     public void OnPointerClick(PointerEventData eventData) {
-		isClock = true;
-		_manager.startEvent(this);
+		if (!isClock)
+		{
+			isClock = true;
+			_manager.startEvent(this);
+		}
 	}
 	// show the scrollview
 	public void OnPointerEnter(PointerEventData eventData) {

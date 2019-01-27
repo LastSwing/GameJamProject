@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 41071972}
   - component: {fileID: 41071971}
   - component: {fileID: 41071973}
+  - component: {fileID: 41071974}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -177,11 +178,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e6e5fcc6db1ad4488a739ae4e1223ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stuffJsonPath: 
-  propJsonPath: 
+  stuffJsonPath: ./Resources/Json/Merge/Stuffs.json
+  propJsonPath: ./Resources/Json/PropertyList/PropertyList.json
   fatherOptionsPath: 
   stuffList: []
   testObj: {fileID: 2115165563}
+--- !u!114 &41071974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41071970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2deef001d1600b84681402fb56416fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameras:
+  - {fileID: 1273954498}
 --- !u!1 &298709062
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +401,7 @@ GameObject:
   - component: {fileID: 1273954501}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -643,7 +657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 853701
 --- !u!23 &2115165565
 MeshRenderer:
   m_ObjectHideFlags: 0

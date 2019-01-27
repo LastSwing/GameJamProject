@@ -5,10 +5,7 @@ using UnityEngine;
 public class StartUIView : BaseUIView
 {
     public GameObject StartGameBtn, SettingBtn, ExitBtn;
-    public StartUIView(string UIViewName, Transform parent) : base(UIViewName, parent)
-    {
-
-    }
+    public StartUIView(string UIViewName, Transform parent) : base(UIViewName, parent){}
     protected override void Init()
     {
         base.Init();
@@ -26,7 +23,7 @@ public class StartUIView : BaseUIView
 
         StartUIController.Instance.HideView();
         //todo
-        BottomFrameController.Instance.ShowView();
+        BottomFrameController.Instance.HideView();
         HomeStateController.Instance.ShowView();
         OwnStateController.Instance.ShowView();
         OtherStateController.Instance.ShowView();

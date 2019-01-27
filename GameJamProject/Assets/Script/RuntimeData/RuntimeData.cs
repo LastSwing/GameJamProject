@@ -35,15 +35,18 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	private Child _child;
 	private Father _father;
 	private GameState _state;
+	private CameraController _camCtrl;
 	// 回合日期
 	public int rounds = 0;
 	// development
 	public bool isDevelop = true;
 
-	// Controller Camera -> Room Switch
-
 	void Start () {
 		Init();
+	}
+	public void Update()
+	{
+		UpdateManager.Instance.myUpdate();
 	}
 
 	public void Init () {
@@ -51,10 +54,12 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
         UIRoot = GameObject.Find("UIRoot").transform;
         OtherRoot = GameObject.Find("OtherRoot").transform;
 		StartUIController.Instance.ShowView();
+
 		_child = new Child(childPressValue, childHarmonyValue, childMoneyValue, childHealthyValue);
 		_father = new Father(fatherPressValue, fatherHarmonyValue, fatherMoneyValue, fatherHealthyValue);
 		
 		_state = GameState.Menu;
+		_camCtrl = GetComponent<CameraController>();
 
 		GameObjectEventManager.instance.Init();
 		GameObjectEventManager.instance.InitData();
@@ -76,9 +81,13 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		}
 	}
 
+	public CameraController getCameraCtrl() {
+		return _camCtrl;
+	}
+
 	// show scrollView, and many event summary
 	public void GameOver() {
-
+		
 	}
 
 	public void SwitchRoundTwo() {
@@ -87,8 +96,6 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	}
     public void UpdateState(int Pressure,int Healthy,int Happiness, int Riches)
     {
-        //todo,计算函数
-        //判断周目
         //OtherStateController.Instance.View.UpdateState(压力,健康);
         //OwnStateController.Instance.View.UpdateState(压力,健康);
         //HomeStateController.Instance.View.UpdateState(和睦,财富);

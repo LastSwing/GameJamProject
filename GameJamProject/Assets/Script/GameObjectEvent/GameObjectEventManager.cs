@@ -72,7 +72,13 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 	// 对话进行时,
 	public void convercation() {
+
+        
         BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic, fatherOpts);
+        OwnStateController.Instance.ShowView();
+        OtherStateController.Instance.ShowView();
+        OtherStateController.Instance.View.CheckActor();
+        OwnStateController.Instance.View.CheckActor();
     }
 
     public void stopConvercation() {

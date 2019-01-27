@@ -8,8 +8,8 @@ public class TalkList
 {
 	public int Id;
 	public string KeyName;
-	public int Index;
-	public int TalkStage;
+	public int Index;//指向Option
+	public int TalkStage;//前缀
 	public int Object; // record the actor name
 	public int OptionsNumber;
 	public string TalkText;

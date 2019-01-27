@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（这女人！？....长得和我好像？）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（父亲回来了，手里还意外地拿着一束花）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（父亲把花放到了画前）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "好像从来没见过父亲这个样子",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "我按捺不住，心中的那句话破口而出",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "永远不要说这是你母亲",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "那些人，居然还活的好好的",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "因为今天是个特别的日子",
+    "ItemSchedule": 0
+  }
+]

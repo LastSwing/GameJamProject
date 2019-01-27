@@ -41,7 +41,8 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	// development
 	public bool isDevelop = true;
 
-	void Start () {
+    public string[] name = { "", "Hughes:", "Squire:", "Peill", "Alice" };
+    void Start () {
 		Init();
 	}
 	public void Update()
@@ -106,7 +107,7 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		_camCtrl.resetAll();
 		// 更换游戏状态
 		_state = GameState.Father;
-		rounds = StorageManager.getInstance().getStuffId().Count;
+        MusicManager.instance.SetBgm(PathManager.father_Bgm);
 	}
     public void UpdateState(int Pressure,int Healthy,int Happiness, int Riches)
     {

@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: aea25f8fe595c5449956bb86d519e43c
+timeCreated: 1548561462
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: sword_2
+    100004: "\u5E73\u9762.011"
+    100006: "\u5E73\u9762.014"
+    100008: "\u5E73\u9762.015"
+    100010: "\u5E73\u9762.016"
+    100012: "\u5E73\u9762.017"
+    100014: "\u5E73\u9762.018"
+    100016: "\u5E73\u9762.019"
+    100018: "\u5E73\u9762.020"
+    100020: "\u5E73\u9762.021"
+    100022: "\u5E73\u9762.022"
+    100024: "\u5E73\u9762.023"
+    100026: "\u5E73\u9762.024"
+    100028: "\u5E73\u9762.025"
+    100030: "\u5E73\u9762.026"
+    100032: "\u5E73\u9762.027"
+    100034: "\u5E73\u9762.028"
+    100036: "\u5E73\u9762.029"
+    100038: "\u5E73\u9762.030"
+    100040: "\u5E73\u9762.031"
+    100042: "\u5E73\u9762.032"
+    100044: "\u5E73\u9762.033"
+    100046: "\u5E73\u9762.034"
+    100048: "\u5E73\u9762.035"
+    100050: "\u5E73\u9762.036"
+    100052: "\u5E73\u9762.037"
+    100054: "\u5E73\u9762.038"
+    100056: "\u5E73\u9762.039"
+    100058: "\u5E73\u9762.040"
+    100060: "\u5E73\u9762.041"
+    100062: "\u5E73\u9762.042"
+    100064: "\u5E73\u9762.043"
+    100066: "\u5E73\u9762.044"
+    100068: "\u5E73\u9762.045"
+    100070: "\u5E73\u9762.046"
+    100072: "\u5E73\u9762.047"
+    100074: "\u67F1\u4F53.005"
+    100076: "\u67F1\u4F53.006"
+    100078: "\u67F1\u4F53.007"
+    100080: "\u67F1\u4F53.008"
+    100082: "\u67F1\u4F53.009"
+    100084: "\u7403\u4F53.006"
+    100086: "\u7403\u4F53.007"
+    100088: "\u7403\u4F53.008"
+    100090: "\u7403\u4F53.009"
+    100092: "\u7403\u4F53.010"
+    100094: "\u7403\u4F53.011"
+    100096: "\u7403\u4F53.012"
+    100098: "\u7403\u4F53.013"
+    100100: "\u7ACB\u65B9\u4F53"
+    100102: "\u7ACB\u65B9\u4F53.000"
+    100104: "\u7ACB\u65B9\u4F53.002"
+    100106: "\u7ACB\u65B9\u4F53.003"
+    400000: //RootNode
+    400002: sword_2
+    400004: "\u5E73\u9762.011"
+    400006: "\u5E73\u9762.014"
+    400008: "\u5E73\u9762.015"
+    400010: "\u5E73\u9762.016"
+    400012: "\u5E73\u9762.017"
+    400014: "\u5E73\u9762.018"
+    400016: "\u5E73\u9762.019"
+    400018: "\u5E73\u9762.020"
+    400020: "\u5E73\u9762.021"
+    400022: "\u5E73\u9762.022"
+    400024: "\u5E73\u9762.023"
+    400026: "\u5E73\u9762.024"
+    400028: "\u5E73\u9762.025"
+    400030: "\u5E73\u9762.026"
+    400032: "\u5E73\u9762.027"
+    400034: "\u5E73\u9762.028"
+    400036: "\u5E73\u9762.029"
+    400038: "\u5E73\u9762.030"
+    400040: "\u5E73\u9762.031"
+    400042: "\u5E73\u9762.032"
+    400044: "\u5E73\u9762.033"
+    400046: "\u5E73\u9762.034"
+    400048: "\u5E73\u9762.035"
+    400050: "\u5E73\u9762.036"
+    400052: "\u5E73\u9762.037"
+    400054: "\u5E73\u9762.038"
+    400056: "\u5E73\u9762.039"
+    400058: "\u5E73\u9762.040"
+    400060: "\u5E73\u9762.041"
+    400062: "\u5E73\u9762.042"
+    400064: "\u5E73\u9762.043"
+    400066: "\u5E73\u9762.044"
+    400068: "\u5E73\u9762.045"
+    400070: "\u5E73\u9762.046"
+    400072: "\u5E73\u9762.047"
+    400074: "\u67F1\u4F53.005"
+    400076: "\u67F1\u4F53.006"
+    400078: "\u67F1\u4F53.007"
+    400080: "\u67F1\u4F53.008"
+    400082: "\u67F1\u4F53.009"
+    400084: "\u7403\u4F53.006"
+    400086: "\u7403\u4F53.007"
+    400088: "\u7403\u4F53.008"
+    400090: "\u7403\u4F53.009"
+    400092: "\u7403\u4F53.010"
+    400094: "\u7403\u4F53.011"
+    400096: "\u7403\u4F53.012"
+    400098: "\u7403\u4F53.013"
+    400100: "\u7ACB\u65B9\u4F53"
+    400102: "\u7ACB\u65B9\u4F53.000"
+    400104: "\u7ACB\u65B9\u4F53.002"
+    400106: "\u7ACB\u65B9\u4F53.003"
+    2300000: sword_2
+    2300002: "\u5E73\u9762.011"
+    2300004: "\u5E73\u9762.014"
+    2300006: "\u5E73\u9762.015"
+    2300008: "\u5E73\u9762.016"
+    2300010: "\u5E73\u9762.017"
+    2300012: "\u5E73\u9762.018"
+    2300014: "\u5E73\u9762.019"
+    2300016: "\u5E73\u9762.020"
+    2300018: "\u5E73\u9762.021"
+    2300020: "\u5E73\u9762.022"
+    2300022: "\u5E73\u9762.023"
+    2300024: "\u5E73\u9762.024"
+    2300026: "\u5E73\u9762.025"
+    2300028: "\u5E73\u9762.026"
+    2300030: "\u5E73\u9762.027"
+    2300032: "\u5E73\u9762.028"
+    2300034: "\u5E73\u9762.029"
+    2300036: "\u5E73\u9762.030"
+    2300038: "\u5E73\u9762.031"
+    2300040: "\u5E73\u9762.032"
+    2300042: "\u5E73\u9762.033"
+    2300044: "\u5E73\u9762.034"
+    2300046: "\u5E73\u9762.035"
+    2300048: "\u5E73\u9762.036"
+    2300050: "\u5E73\u9762.037"
+    2300052: "\u5E73\u9762.038"
+    2300054: "\u5E73\u9762.039"
+    2300056: "\u5E73\u9762.040"
+    2300058: "\u5E73\u9762.041"
+    2300060: "\u5E73\u9762.042"
+    2300062: "\u5E73\u9762.043"
+    2300064: "\u5E73\u9762.044"
+    2300066: "\u5E73\u9762.045"
+    2300068: "\u5E73\u9762.046"
+    2300070: "\u5E73\u9762.047"
+    2300072: "\u67F1\u4F53.005"
+    2300074: "\u67F1\u4F53.006"
+    2300076: "\u67F1\u4F53.007"
+    2300078: "\u67F1\u4F53.008"
+    2300080: "\u67F1\u4F53.009"
+    2300082: "\u7403\u4F53.006"
+    2300084: "\u7403\u4F53.007"
+    2300086: "\u7403\u4F53.008"
+    2300088: "\u7403\u4F53.009"
+    2300090: "\u7403\u4F53.010"
+    2300092: "\u7403\u4F53.011"
+    2300094: "\u7403\u4F53.012"
+    2300096: "\u7403\u4F53.013"
+    2300098: "\u7ACB\u65B9\u4F53"
+    2300100: "\u7ACB\u65B9\u4F53.000"
+    2300102: "\u7ACB\u65B9\u4F53.002"
+    2300104: "\u7ACB\u65B9\u4F53.003"
+    3300000: sword_2
+    3300002: "\u5E73\u9762.011"
+    3300004: "\u5E73\u9762.014"
+    3300006: "\u5E73\u9762.015"
+    3300008: "\u5E73\u9762.016"
+    3300010: "\u5E73\u9762.017"
+    3300012: "\u5E73\u9762.018"
+    3300014: "\u5E73\u9762.019"
+    3300016: "\u5E73\u9762.020"
+    3300018: "\u5E73\u9762.021"
+    3300020: "\u5E73\u9762.022"
+    3300022: "\u5E73\u9762.023"
+    3300024: "\u5E73\u9762.024"
+    3300026: "\u5E73\u9762.025"
+    3300028: "\u5E73\u9762.026"
+    3300030: "\u5E73\u9762.027"
+    3300032: "\u5E73\u9762.028"
+    3300034: "\u5E73\u9762.029"
+    3300036: "\u5E73\u9762.030"
+    3300038: "\u5E73\u9762.031"
+    3300040: "\u5E73\u9762.032"
+    3300042: "\u5E73\u9762.033"
+    3300044: "\u5E73\u9762.034"
+    3300046: "\u5E73\u9762.035"
+    3300048: "\u5E73\u9762.036"
+    3300050: "\u5E73\u9762.037"
+    3300052: "\u5E73\u9762.038"
+    3300054: "\u5E73\u9762.039"
+    3300056: "\u5E73\u9762.040"
+    3300058: "\u5E73\u9762.041"
+    3300060: "\u5E73\u9762.042"
+    3300062: "\u5E73\u9762.043"
+    3300064: "\u5E73\u9762.044"
+    3300066: "\u5E73\u9762.045"
+    3300068: "\u5E73\u9762.046"
+    3300070: "\u5E73\u9762.047"
+    3300072: "\u67F1\u4F53.005"
+    3300074: "\u67F1\u4F53.006"
+    3300076: "\u67F1\u4F53.007"
+    3300078: "\u67F1\u4F53.008"
+    3300080: "\u67F1\u4F53.009"
+    3300082: "\u7403\u4F53.006"
+    3300084: "\u7403\u4F53.007"
+    3300086: "\u7403\u4F53.008"
+    3300088: "\u7403\u4F53.009"
+    3300090: "\u7403\u4F53.010"
+    3300092: "\u7403\u4F53.011"
+    3300094: "\u7403\u4F53.012"
+    3300096: "\u7403\u4F53.013"
+    3300098: "\u7ACB\u65B9\u4F53"
+    3300100: "\u7ACB\u65B9\u4F53.000"
+    3300102: "\u7ACB\u65B9\u4F53.002"
+    3300104: "\u7ACB\u65B9\u4F53.003"
+    4300000: "\u7403\u4F53.012"
+    4300002: "\u5E73\u9762.011"
+    4300004: "\u5E73\u9762.016"
+    4300006: "\u5E73\u9762.017"
+    4300008: "\u5E73\u9762.018"
+    4300010: "\u5E73\u9762.019"
+    4300012: "\u5E73\u9762.020"
+    4300014: "\u5E73\u9762.021"
+    4300016: "\u5E73\u9762.024"
+    4300018: "\u5E73\u9762.025"
+    4300020: "\u5E73\u9762.026"
+    4300022: "\u5E73\u9762.027"
+    4300024: "\u5E73\u9762.028"
+    4300026: "\u5E73\u9762.029"
+    4300028: "\u5E73\u9762.030"
+    4300030: "\u5E73\u9762.031"
+    4300032: "\u5E73\u9762.032"
+    4300034: "\u7ACB\u65B9\u4F53.000"
+    4300036: "\u7403\u4F53.006"
+    4300038: "\u67F1\u4F53.005"
+    4300040: "\u5E73\u9762.036"
+    4300042: "\u5E73\u9762.037"
+    4300044: "\u5E73\u9762.038"
+    4300046: "\u5E73\u9762.039"
+    4300048: "\u5E73\u9762.040"
+    4300050: "\u5E73\u9762.041"
+    4300052: "\u7ACB\u65B9\u4F53"
+    4300054: "\u7ACB\u65B9\u4F53.002"
+    4300056: "\u7ACB\u65B9\u4F53.003"
+    4300058: "\u5E73\u9762.046"
+    4300060: "\u5E73\u9762.047"
+    4300062: "\u7403\u4F53.013"
+    4300064: sword_2
+    4300066: "\u5E73\u9762.033"
+    4300068: "\u5E73\u9762.034"
+    4300070: "\u7403\u4F53.007"
+    4300072: "\u7403\u4F53.008"
+    4300074: "\u7403\u4F53.009"
+    4300076: "\u7403\u4F53.010"
+    4300078: "\u7403\u4F53.011"
+    4300080: "\u67F1\u4F53.006"
+    4300082: "\u67F1\u4F53.007"
+    4300084: "\u5E73\u9762.035"
+    4300086: "\u67F1\u4F53.008"
+    4300088: "\u67F1\u4F53.009"
+    4300090: "\u5E73\u9762.014"
+    4300092: "\u5E73\u9762.015"
+    4300094: "\u5E73\u9762.022"
+    4300096: "\u5E73\u9762.023"
+    4300098: "\u5E73\u9762.042"
+    4300100: "\u5E73\u9762.043"
+    4300102: "\u5E73\u9762.044"
+    4300104: "\u5E73\u9762.045"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 1c2826e5bd0bf004b919715e4caed6e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beard
+    second: {fileID: 2100000, guid: 5fb20e31601b5d3498102c0fe7bc4fa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: belt
+    second: {fileID: 2100000, guid: 10837800dd37ca94e9b70b5747094bde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: belt.001
+    second: {fileID: 2100000, guid: 4c950741442016542b7c0bd25450b78a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloest_surface
+    second: {fileID: 2100000, guid: 25aeab83c0f9ff549a57ead6da5c4d14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloest_surface.001
+    second: {fileID: 2100000, guid: f7e55f2ad5a94e741bd34b8de69b7299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth
+    second: {fileID: 2100000, guid: 1668b4a7165b1f749b09ae6fddacfae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colth_f.001
+    second: {fileID: 2100000, guid: c7c11d56935787c4f853d186f676c7f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye
+    second: {fileID: 2100000, guid: 5722157b73e4d0c4aac4cc7d4ae47f42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye.001
+    second: {fileID: 2100000, guid: 5722157b73e4d0c4aac4cc7d4ae47f42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelash
+    second: {fileID: 2100000, guid: e8ec2cdce279beb44b17402db7691f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: 326598676baec6142aef4dbc5cdb1531, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_3
+    second: {fileID: 2100000, guid: fd7df942f8ac06b4396d166920d376aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shose
+    second: {fileID: 2100000, guid: 05470b33c276ad440a2f361f6269006c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shose.001
+    second: {fileID: 2100000, guid: ce18e037208fe0a4c9be1eed83bced5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin_2
+    second: {fileID: 2100000, guid: 6e6883e77d0f4af4bab8dfb5c0f4d0dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin_2.002
+    second: {fileID: 2100000, guid: ebffb2c1d46f82a4fa882f06dc6af645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: watermelon_black
+    second: {fileID: 2100000, guid: e9af0d954a0bb46459207c126ed31a49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: watermelon_green
+    second: {fileID: 2100000, guid: f0a590a04e926844ca01a184556dcd67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: watermelon_red
+    second: {fileID: 2100000, guid: f6745a4d0c06552439dc1a8fe53f67b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28.001"
+    second: {fileID: 2100000, guid: 40ff3e21269bf434aa00a953a199da2d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

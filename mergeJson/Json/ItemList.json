@@ -1,5 +1,5 @@
 {
-  "Items":[
+  "Items": [
   {
     "Id": 1,
     "KeyName": "1",
@@ -24,7 +24,7 @@
   },
   {
     "Id": 3,
-    "KeyName": "3",
+    "KeyName": "2",
     "ItemId": 853701,
     "ItemName": "杯子",
     "ItemModel": "Art",
@@ -35,80 +35,190 @@
   },
   {
     "Id": 4,
-    "KeyName": "4",
-    "ItemId": 0,
-    "ItemName": "",
-    "ItemModel": "",
-    "ItemSchedule": "",
-    "ItemExplain": "",
-    "TalkList": "",
-    "OptionList": ""
+    "KeyName": "1",
+    "ItemId": 853702,
+    "ItemName": "酒桶",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "酒桶里还有一些酒",
+    "TalkList": "TalkBarre01",
+    "OptionList": "OptionsBarre01"
   },
   {
     "Id": 5,
-    "KeyName": "5",
-    "ItemId": 0,
-    "ItemName": "",
-    "ItemModel": "",
-    "ItemSchedule": "",
-    "ItemExplain": "",
-    "TalkList": "",
-    "OptionList": ""
+    "KeyName": "2",
+    "ItemId": 853702,
+    "ItemName": "酒桶",
+    "ItemModel": "Art",
+    "ItemSchedule": "2",
+    "ItemExplain": "空空如也",
+    "TalkList": "TalkBarre02",
+    "OptionList": "OptionsBarre02"
   },
   {
     "Id": 6,
-    "KeyName": "6",
-    "ItemId": 0,
-    "ItemName": "",
-    "ItemModel": "",
-    "ItemSchedule": "",
-    "ItemExplain": "",
-    "TalkList": "",
-    "OptionList": ""
+    "KeyName": "1",
+    "ItemId": 853703,
+    "ItemName": "烟斗",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "精致的烟斗",
+    "TalkList": "TalkSmoke01",
+    "OptionList": "OptionsSmoke01"
   },
   {
     "Id": 7,
-    "KeyName": "7",
-    "ItemId": 0,
-    "ItemName": "",
-    "ItemModel": "",
-    "ItemSchedule": "",
-    "ItemExplain": "",
-    "TalkList": "",
-    "OptionList": ""
+    "KeyName": "1",
+    "ItemId": 853704,
+    "ItemName": "壁画",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "女人的画像",
+    "TalkList": "TalkPaint01",
+    "OptionList": "OptionsPaint01"
   },
   {
     "Id": 8,
-    "KeyName": "8",
-    "ItemId": 0,
-    "ItemName": "",
-    "ItemModel": "",
-    "ItemSchedule": "",
-    "ItemExplain": "",
-    "TalkList": "",
-    "OptionList": ""
+    "KeyName": "2",
+    "ItemId": 853704,
+    "ItemName": "壁画",
+    "ItemModel": "Art",
+    "ItemSchedule": "2",
+    "ItemExplain": "有母亲意识的画像",
+    "TalkList": "TalkPaint02",
+    "OptionList": "OptionsPaint02"
   },
   {
     "Id": 9,
-    "KeyName": "9",
-    "ItemId": 0,
-    "ItemName": "",
-    "ItemModel": "",
-    "ItemSchedule": "",
-    "ItemExplain": "",
-    "TalkList": "",
-    "OptionList": ""
+    "KeyName": "1",
+    "ItemId": 853705,
+    "ItemName": "剑",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "佩剑",
+    "TalkList": "TalkSword01",
+    "OptionList": "OptionsSword01"
   },
   {
     "Id": 10,
-    "KeyName": "10",
-    "ItemId": 0,
-    "ItemName": "",
-    "ItemModel": "",
-    "ItemSchedule": "",
-    "ItemExplain": "",
-    "TalkList": "",
-    "OptionList": ""
+    "KeyName": "2",
+    "ItemId": 853705,
+    "ItemName": "剑",
+    "ItemModel": "Art",
+    "ItemSchedule": "2",
+    "ItemExplain": "皇家佩剑",
+    "TalkList": "TalkSword02",
+    "OptionList": "OptionsSword02"
+  },
+  {
+    "Id": 11,
+    "KeyName": "2",
+    "ItemId": 853705,
+    "ItemName": "剑",
+    "ItemModel": "Art",
+    "ItemSchedule": "3",
+    "ItemExplain": "有意识的皇家佩剑",
+    "TalkList": "TalkSword03",
+    "OptionList": "OptionsSword03"
+  },
+  {
+    "Id": 12,
+    "KeyName": "1",
+    "ItemId": 853706,
+    "ItemName": "魔杖",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "树枝",
+    "TalkList": "TalkTwig01",
+    "OptionList": "OptionsTwig01"
+  },
+  {
+    "Id": 13,
+    "KeyName": "2",
+    "ItemId": 853706,
+    "ItemName": "魔杖",
+    "ItemModel": "Art",
+    "ItemSchedule": "2",
+    "ItemExplain": "魔杖",
+    "TalkList": "TalkTwig02",
+    "OptionList": "OptionsTwig02"
+  },
+  {
+    "Id": 14,
+    "KeyName": "1",
+    "ItemId": 853707,
+    "ItemName": "猫头鹰",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "从我记事开始就养在家里的宠物",
+    "TalkList": "TalkOwl01",
+    "OptionList": "OptionsOwl01"
+  },
+  {
+    "Id": 15,
+    "KeyName": "2",
+    "ItemId": 853707,
+    "ItemName": "猫头鹰",
+    "ItemModel": "Art",
+    "ItemSchedule": "2",
+    "ItemExplain": "会说话的神奇猫头鹰",
+    "TalkList": "TalkOwl02",
+    "OptionList": "OptionsOwl02"
+  },
+  {
+    "Id": 16,
+    "KeyName": "2",
+    "ItemId": 853707,
+    "ItemName": "猫头鹰",
+    "ItemModel": "Art",
+    "ItemSchedule": "3",
+    "ItemExplain": "Peill",
+    "TalkList": "TalkOwl03",
+    "OptionList": "OptionsOwl03"
+  },
+  {
+    "Id": 17,
+    "KeyName": "1",
+    "ItemId": 853708,
+    "ItemName": "灶台",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "不太可口饭菜。",
+    "TalkList": "TalkCooker01",
+    "OptionList": "OptionsCooker01"
+  },
+  {
+    "Id": 18,
+    "KeyName": "1",
+    "ItemId": 853709,
+    "ItemName": "蒲公英",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "长在窗台的花",
+    "TalkList": "TalkFlower01",
+    "OptionList": "OptionsFlower01"
+  },
+  {
+    "Id": 19,
+    "KeyName": "2",
+    "ItemId": 853709,
+    "ItemName": "蒲公英",
+    "ItemModel": "Art",
+    "ItemSchedule": "2",
+    "ItemExplain": "拥有神秘力量的花",
+    "TalkList": "TalkFlower02",
+    "OptionList": "OptionsFlower02"
+  },
+  {
+    "Id": 20,
+    "KeyName": "1",
+    "ItemId": 853710,
+    "ItemName": "地窖",
+    "ItemModel": "Art",
+    "ItemSchedule": "1",
+    "ItemExplain": "地窖入口",
+    "TalkList": "TalkCellar01",
+    "OptionList": "OptionsCellar01"
   }
-]
+  ]
 }

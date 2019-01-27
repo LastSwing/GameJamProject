@@ -22,10 +22,13 @@ public class StartUIView : BaseUIView
     {
 
         StartUIController.Instance.HideView();
-        //todo
+
+        RuntimeData.instance.setGameState(GameState.Child);
+        MusicManager.instance.SetBgm(PathManager.son_Bgm);
+
         BottomFrameController.Instance.HideView();
         HomeStateController.Instance.ShowView();
-        OwnStateController.Instance.ShowView();
-        OtherStateController.Instance.ShowView();
+        OwnStateController.Instance.HideView();
+        OtherStateController.Instance.HideView();
     }
 }

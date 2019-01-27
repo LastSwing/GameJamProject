@@ -6,9 +6,9 @@ using System;
 [Serializable]
 public class OptionList
 {
-	public int Id;
+	public int Id;//第几个选项
 	public string KeyName;
-	public int Index;
+	public int Index;//后继
 	public int OptionsStage;
 	public int OptionNumber;
 	public string OptionsText;

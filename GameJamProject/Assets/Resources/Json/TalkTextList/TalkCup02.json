@@ -1,0 +1,218 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "这个杯子有什么特殊的含义？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "。。。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "住手！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "（继续向壁炉走去）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "那是你母亲的遗物。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "它是世界上独一无二的杯子。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "只因为是母亲的遗物。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "不仅仅是遗物。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "而且是她亲手制作的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "把杯子放回去。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 0,
+    "TalkText": "（将杯子放了回去）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "（没想到还有这样的父亲还有这样的表情）",
+    "ItemSchedule": 3
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "见习的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "我会成为伟大的骑士的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "现在还不是。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 16,
+    "KeyName": "16",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "该死，骑士学校那帮军官到底教了你们什么鬼东西。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 17,
+    "KeyName": "17",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "英勇。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 18,
+    "KeyName": "18",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "英勇？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 19,
+    "KeyName": "19",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "对，英勇。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 20,
+    "KeyName": "20",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 0,
+    "TalkText": "（随即将杯子摔毁）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 21,
+    "KeyName": "21",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "这就是你所谓的英勇？！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 22,
+    "KeyName": "22",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "什么骑士，一群虚伪狂妄混蛋！！！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 23,
+    "KeyName": "23",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 0,
+    "TalkText": "（父亲将杯子的碎片一片片的捡起，回到了自己的房间）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 24,
+    "KeyName": "24",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "。。。",
+    "ItemSchedule": -1
+  }
+]

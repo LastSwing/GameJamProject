@@ -1,0 +1,200 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（一个破树枝？）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "为什么父亲要留这个东西在家里。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（Hughes拿起了树枝玩了起来）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "Biu！V",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "什么？！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "我使出了魔法？！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "你在干什么？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "没什么，法术我见多了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "但是这个法术是我用出来的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "因为你的母亲也会法术，你拥有她的血脉，会用个法术也很正常。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "看来你有这个天赋，这个法杖你就拿去用吧。",
+    "ItemSchedule": 2
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "哦",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 0,
+    "TalkText": "Squire把魔杖收了起来",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "嗯，很像你的母亲。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "我的母亲？她也会魔法吗？她是什么样子的？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 16,
+    "KeyName": "16",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "Alice使用魔法的时候，强大且迷人。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 17,
+    "KeyName": "17",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "平日最普通的法术，在她的手里也会变得绚丽缤纷。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 18,
+    "KeyName": "18",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "母亲是很强大的巫师吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 19,
+    "KeyName": "19",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "她隐藏了巫师的身份。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 20,
+    "KeyName": "20",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "为什么？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 21,
+    "KeyName": "21",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "因为你。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 22,
+    "KeyName": "22",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "我？？？",
+    "ItemSchedule": 2
+  }
+]

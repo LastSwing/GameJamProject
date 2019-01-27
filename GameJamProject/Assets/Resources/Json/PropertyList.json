@@ -1,164 +1,162 @@
-{
-  "Items": [
-    {
+[
+  {
     "Id": 1,
     "KeyName": "1",
     "Type": 1,
-    "Mix": 0,
-    "Max": 20,
-    "Name": "崩溃"
+    "Mix": 1,
+    "Max": 2,
+    "Name": "饱满"
   },
   {
     "Id": 2,
     "KeyName": "2",
     "Type": 1,
-    "Mix": 21,
-    "Max": 40,
-    "Name": "抑郁"
+    "Mix": 3,
+    "Max": 4,
+    "Name": "平常"
   },
   {
     "Id": 3,
     "KeyName": "3",
     "Type": 1,
-    "Mix": 41,
-    "Max": 60,
+    "Mix": 5,
+    "Max": 6,
     "Name": "压抑"
   },
   {
     "Id": 4,
     "KeyName": "4",
     "Type": 1,
-    "Mix": 61,
-    "Max": 80,
-    "Name": "平常"
+    "Mix": 7,
+    "Max": 8,
+    "Name": "抑郁"
   },
   {
     "Id": 5,
     "KeyName": "5",
     "Type": 1,
-    "Mix": 81,
-    "Max": 100,
-    "Name": "饱满"
+    "Mix": 9,
+    "Max": 10,
+    "Name": "崩溃"
   },
   {
     "Id": 6,
     "KeyName": "6",
     "Type": 2,
-    "Mix": 0,
-    "Max": 20,
+    "Mix": 1,
+    "Max": 2,
     "Name": "濒危"
   },
   {
     "Id": 7,
     "KeyName": "7",
     "Type": 2,
-    "Mix": 21,
-    "Max": 40,
+    "Mix": 3,
+    "Max": 4,
     "Name": "虚弱"
   },
   {
     "Id": 8,
     "KeyName": "8",
     "Type": 2,
-    "Mix": 41,
-    "Max": 60,
+    "Mix": 5,
+    "Max": 6,
     "Name": "一般"
   },
   {
     "Id": 9,
     "KeyName": "9",
     "Type": 2,
-    "Mix": 61,
-    "Max": 80,
+    "Mix": 7,
+    "Max": 8,
     "Name": "健康"
   },
   {
     "Id": 10,
     "KeyName": "10",
     "Type": 2,
-    "Mix": 81,
-    "Max": 100,
+    "Mix": 9,
+    "Max": 10,
     "Name": "强壮"
   },
   {
     "Id": 11,
     "KeyName": "11",
     "Type": 3,
-    "Mix": 0,
-    "Max": 20,
+    "Mix": 1,
+    "Max": 2,
     "Name": "绝望"
   },
   {
     "Id": 12,
     "KeyName": "12",
     "Type": 3,
-    "Mix": 21,
-    "Max": 40,
+    "Mix": 3,
+    "Max": 4,
     "Name": "不幸"
   },
   {
     "Id": 13,
     "KeyName": "13",
     "Type": 3,
-    "Mix": 41,
-    "Max": 60,
+    "Mix": 5,
+    "Max": 6,
     "Name": "磕绊"
   },
   {
     "Id": 14,
     "KeyName": "14",
     "Type": 3,
-    "Mix": 61,
-    "Max": 80,
+    "Mix": 7,
+    "Max": 8,
     "Name": "大众"
   },
   {
     "Id": 15,
     "KeyName": "15",
     "Type": 3,
-    "Mix": 81,
-    "Max": 100,
+    "Mix": 9,
+    "Max": 10,
     "Name": "满足"
   },
   {
     "Id": 16,
     "KeyName": "16",
     "Type": 4,
-    "Mix": 0,
-    "Max": 20,
+    "Mix": 1,
+    "Max": 2,
     "Name": "贫困"
   },
   {
     "Id": 17,
     "KeyName": "17",
     "Type": 4,
-    "Mix": 21,
-    "Max": 40,
+    "Mix": 3,
+    "Max": 4,
     "Name": "拮据"
   },
   {
     "Id": 18,
     "KeyName": "18",
     "Type": 4,
-    "Mix": 41,
-    "Max": 60,
+    "Mix": 5,
+    "Max": 6,
     "Name": "普通"
   },
   {
     "Id": 19,
     "KeyName": "19",
     "Type": 4,
-    "Mix": 61,
-    "Max": 80,
+    "Mix": 7,
+    "Max": 8,
     "Name": "富有"
   },
   {
     "Id": 20,
     "KeyName": "20",
     "Type": 4,
-    "Mix": 81,
-    "Max": 100,
+    "Mix": 9,
+    "Max": 10,
     "Name": "有矿"
   }
-  ]
-}
+]

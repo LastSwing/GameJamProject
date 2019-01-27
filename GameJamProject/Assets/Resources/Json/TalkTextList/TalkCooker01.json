@@ -4,8 +4,8 @@
     "KeyName": "1",
     "Index": 1,
     "TalkStage": 1,
-    "Object": 0,
-    "TalkText": "(这个杯子和其他的有些不一样)",
+    "Object": 1,
+    "TalkText": "这些是什么？",
     "ItemSchedule": 0
   },
   {
@@ -14,25 +14,25 @@
     "Index": 1,
     "TalkStage": 1,
     "Object": 2,
-    "TalkText": "不要动那个杯子。",
+    "TalkText": "土豆炖鸡或者鸡炖土豆？",
     "ItemSchedule": 0
   },
   {
     "Id": 3,
     "KeyName": "3",
-    "Index": 2,
-    "TalkStage": 2,
-    "Object": 2,
-    "TalkText": "我说了,不要动它！",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "这味道好奇怪。",
     "ItemSchedule": 0
   },
   {
     "Id": 4,
     "KeyName": "4",
-    "Index": 2,
-    "TalkStage": 2,
-    "Object": 1,
-    "TalkText": "这个杯子怎么了？",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "我决定还不错。",
     "ItemSchedule": 0
   },
   {
@@ -41,7 +41,7 @@
     "Index": 2,
     "TalkStage": 2,
     "Object": 2,
-    "TalkText": "这和你没关系。",
+    "TalkText": "你在做什么？",
     "ItemSchedule": 0
   },
   {
@@ -50,16 +50,16 @@
     "Index": 2,
     "TalkStage": 2,
     "Object": 1,
-    "TalkText": "（默默放下杯子）",
-    "ItemSchedule": 2
+    "TalkText": "我不想在今天丧命。",
+    "ItemSchedule": -1
   },
   {
     "Id": 7,
     "KeyName": "7",
     "Index": 3,
     "TalkStage": 3,
-    "Object": 2,
-    "TalkText": "这和你没关系。",
+    "Object": 1,
+    "TalkText": "你煮了这么多年就这技术？",
     "ItemSchedule": 0
   },
   {
@@ -67,17 +67,8 @@
     "KeyName": "8",
     "Index": 3,
     "TalkStage": 3,
-    "Object": 0,
-    "TalkText": "（默默放下杯子）",
-    "ItemSchedule": 2
-  },
-  {
-    "Id": 9,
-    "KeyName": "9",
-    "Index": 4,
-    "TalkStage": 4,
     "Object": 2,
-    "TalkText": "等时机到了，自然会跟你解释。",
-    "ItemSchedule": 2
+    "TalkText": "那你也从小吃到大了。",
+    "ItemSchedule": -1
   }
 ]

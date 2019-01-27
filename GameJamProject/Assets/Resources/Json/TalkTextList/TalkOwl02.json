@@ -1,0 +1,164 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "嗨，能听到我说话吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "嗷嗷，你又来打扰我睡觉了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "还有我叫Peill。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "好吧Peill，你是什么时候成为宠物来到家里的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "我可不是宠物，我是你父母的朋友。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "谁是你的朋友？算年纪的话，你应该叫我Peill叔叔。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "那Peill叔叔，你是怎么认识我的父母的呢？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "就比较俗套的被猎人打伤，逃离，救助。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "陈年往事不要提啦。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "哦，被母亲救下来了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "啊？Alice？不是不是，是Squire救得我。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "父亲？天啊，他是居然还会做这种事情？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "当时我也很惊讶，毕竟他当时和你差不多大。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "和我一样？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "是呀。哎呀，不说了，Squire知道要生气啦。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 16,
+    "KeyName": "16",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "晚安晚安小朋友。",
+    "ItemSchedule": 3
+  },
+  {
+    "Id": 17,
+    "KeyName": "17",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 3,
+    "TalkText": "你说谁是死鸟，看老子锤死你！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 18,
+    "KeyName": "18",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "啊！！！！",
+    "ItemSchedule": -1
+  }
+]

@@ -4,13 +4,13 @@
     "KeyName": "1",
     "Index": 2,
     "OptionsStage": 1,
-    "OptionsText": "（不理睬，继续摆弄）",
-    "Pressure1": 0,
+    "OptionsText": "这个杯子已经这么旧了，我清理一下扔了。",
+    "Pressure1": -1,
     "ThresholdValue": 0,
     "Pressure2": 0,
     "Healthy1": 0,
     "Healthy2": 0,
-    "Happiness": -2,
+    "Happiness": 0,
     "Riches": 0
   },
   {
@@ -18,13 +18,13 @@
     "KeyName": "2",
     "Index": 3,
     "OptionsStage": 1,
-    "OptionsText": "为什么？",
+    "OptionsText": "我已经是一个独挡一面的骑士了，我有资格知道。",
     "Pressure1": 0,
     "ThresholdValue": 0,
-    "Pressure2": 0,
+    "Pressure2": 4,
     "Healthy1": 0,
     "Healthy2": 0,
-    "Happiness": -1,
+    "Happiness": 0,
     "Riches": 0
   },
   {
@@ -32,13 +32,13 @@
     "KeyName": "3",
     "Index": 4,
     "OptionsStage": 1,
-    "OptionsText": "（放下）",
+    "OptionsText": "。。。",
     "Pressure1": 0,
     "ThresholdValue": 0,
     "Pressure2": 0,
     "Healthy1": 0,
     "Healthy2": 0,
-    "Happiness": 0,
+    "Happiness": -1,
     "Riches": 0
   }
 ]

@@ -22,4 +22,10 @@ public class CameraController : MonoBehaviour {
 		}
 		cameras[value].depth = -1;
 	}
+
+	private void Update()
+	{
+		//Distance -= Input.GetAxis("Mouse ScrollWheel") * ZoomSpeed;
+		//Distance = Mathf.Clamp(Distance, MinDistance, MaxDistance);
+	}
 }

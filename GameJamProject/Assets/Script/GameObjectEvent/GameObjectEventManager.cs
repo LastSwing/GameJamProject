@@ -302,4 +302,11 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 			return;
 		}
 	}
+
+	void RandomTriggerEvent() {
+		int count = stuffList.Length;
+		int index = (int)UnityEngine.Random.Range(0, count);
+		StuffGroup group = stuffs[index];
+		BottomFrameController.Instance.View.UpdateText();
+	}
 }

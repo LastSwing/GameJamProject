@@ -92,7 +92,7 @@
   {
     "Id": 11,
     "KeyName": "11",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 2,
     "TalkText": "记住，无论在哪里你都会有所限制，你不是完全自由。",
@@ -191,7 +191,7 @@
   {
     "Id": 22,
     "KeyName": "22",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "你先成为正式的骑士再说吧。",

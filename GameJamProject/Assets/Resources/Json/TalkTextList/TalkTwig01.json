@@ -92,7 +92,7 @@
   {
     "Id": 11,
     "KeyName": "11",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 2,
     "TalkText": "看来你有这个天赋，这个法杖你就拿去用吧。",
@@ -110,7 +110,7 @@
   {
     "Id": 13,
     "KeyName": "13",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 0,
     "TalkText": "Squire把魔杖收了起来",
@@ -191,7 +191,7 @@
   {
     "Id": 22,
     "KeyName": "22",
-    "Index": 4,
+    "Index": 0,
     "TalkStage": 4,
     "Object": 1,
     "TalkText": "我？？？",

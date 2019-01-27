@@ -47,7 +47,7 @@
   {
     "Id": 6,
     "KeyName": "6",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 1,
     "TalkText": "我不想在今天丧命。",
@@ -56,7 +56,7 @@
   {
     "Id": 7,
     "KeyName": "7",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "是不是还不错？",

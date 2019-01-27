@@ -101,7 +101,7 @@
   {
     "Id": 12,
     "KeyName": "12",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 1,
     "TalkText": "（没想到还有这样的父亲还有这样的表情）",
@@ -200,7 +200,7 @@
   {
     "Id": 23,
     "KeyName": "23",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 0,
     "TalkText": "（父亲将杯子的碎片一片片的捡起，回到了自己的房间）",
@@ -209,7 +209,7 @@
   {
     "Id": 24,
     "KeyName": "24",
-    "Index": 4,
+    "Index": 0,
     "TalkStage": 4,
     "Object": 2,
     "TalkText": "。。。",

@@ -29,7 +29,7 @@
   {
     "Id": 4,
     "KeyName": "4",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 2,
     "TalkText": "（被撂倒在地）",
@@ -38,7 +38,7 @@
   {
     "Id": 5,
     "KeyName": "5",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "（查看确保剑没被挪动）",
@@ -47,7 +47,7 @@
   {
     "Id": 6,
     "KeyName": "6",
-    "Index": 4,
+    "Index": 0,
     "TalkStage": 4,
     "Object": 2,
     "TalkText": "（满脸的无奈与不满）",

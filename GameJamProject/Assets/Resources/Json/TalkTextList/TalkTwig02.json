@@ -110,7 +110,7 @@
   {
     "Id": 13,
     "KeyName": "13",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 1,
     "TalkText": "嗯。",
@@ -146,7 +146,7 @@
   {
     "Id": 17,
     "KeyName": "17",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "（希望你能改变他们）",

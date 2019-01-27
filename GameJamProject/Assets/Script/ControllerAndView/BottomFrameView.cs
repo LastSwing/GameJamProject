@@ -10,7 +10,7 @@ public class BottomFrameView : BaseUIView
 	#region privData
     private Dictionary<int, List<TalkList>> _talkDic;
     private Dictionary<int, List<OptionList>> _optionDic;
-	private List<OptionList> _fatherOpts = null;
+	private List<SquireObj> _fatherOpts = null;
 	private List<string> fatherEventList = null;
 	#endregion
 	// keep the talkDic stage and count
@@ -35,7 +35,7 @@ public class BottomFrameView : BaseUIView
         ParrotPic = GetGameObjectByName("ParrotPic");
     }
 	// 从GameObjectEventManager 中获取初始化的对象数据
-    public void StartUpdateContent(Dictionary<int/*stage*/, List<TalkList>> talkDic, Dictionary<int/*stage,从1开始*/, List<OptionList>> optionDic, List<OptionList> fatherOpts)
+    public void StartUpdateContent(Dictionary<int/*stage*/, List<TalkList>> talkDic, Dictionary<int/*stage,从1开始*/, List<OptionList>> optionDic, List<SquireObj> fatherOpts)
     {
 		_talkDic = talkDic;
 		_optionDic = optionDic;

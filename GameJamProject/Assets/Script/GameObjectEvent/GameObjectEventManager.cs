@@ -22,7 +22,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	#region record the data
 	private List<StuffGroup> stuffs = new List<StuffGroup>();
 	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
-	private List<OptionList> fatherOpts = new List<OptionList>();
+	private List<SquireObj> fatherOpts = new List<SquireObj>();
 	private List<fatherEventObj> fatherEvent = new List<fatherEventObj>();
 	#endregion
 	#region currentStuffEvent

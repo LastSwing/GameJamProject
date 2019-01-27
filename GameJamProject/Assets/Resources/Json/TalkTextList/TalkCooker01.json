@@ -58,17 +58,8 @@
     "KeyName": "7",
     "Index": 3,
     "TalkStage": 3,
-    "Object": 1,
-    "TalkText": "你煮了这么多年就这技术？",
-    "ItemSchedule": 0
-  },
-  {
-    "Id": 8,
-    "KeyName": "8",
-    "Index": 3,
-    "TalkStage": 3,
     "Object": 2,
-    "TalkText": "那你也从小吃到大了。",
+    "TalkText": "是不是还不错？",
     "ItemSchedule": -1
   }
 ]

@@ -40,8 +40,8 @@
     "KeyName": "5",
     "Index": 3,
     "TalkStage": 3,
-    "Object": 0,
-    "TalkText": "（父亲看了看你，也沉默了下来）",
+    "Object": 2,
+    "TalkText": "（看了看Hughes，也沉默了下来）",
     "ItemSchedule": -1
   }
 ]

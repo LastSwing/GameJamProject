@@ -84,7 +84,7 @@
     "ItemModel": "Art",
     "ItemSchedule": "2",
     "ItemExplain": "有母亲意识的画像",
-    "TalkList": "TalkPaint01",
+    "TalkList": "TalkPaint02",
     "OptionList": "OptionsPaint02"
   },
   {
@@ -106,7 +106,7 @@
     "ItemModel": "Art",
     "ItemSchedule": "2",
     "ItemExplain": "皇家佩剑",
-    "TalkList": "TalkSword01",
+    "TalkList": "TalkSword02",
     "OptionList": "OptionsSword02"
   },
   {
@@ -117,7 +117,7 @@
     "ItemModel": "Art",
     "ItemSchedule": "3",
     "ItemExplain": "有意识的皇家佩剑",
-    "TalkList": "TalkSword01",
+    "TalkList": "TalkSword03",
     "OptionList": "OptionsSword03"
   },
   {
@@ -218,16 +218,5 @@
     "ItemExplain": "地窖入口",
     "TalkList": "TalkCellar01",
     "OptionList": "OptionsCellar01"
-  },
-  {
-    "Id": 21,
-    "KeyName": "2",
-    "ItemId": 853710,
-    "ItemName": "地窖",
-    "ItemModel": "Art",
-    "ItemSchedule": "2",
-    "ItemExplain": "小木工坊",
-    "TalkList": "TalkCellar02",
-    "OptionList": "OptionsCellar02"
   }
 ]

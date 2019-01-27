@@ -31,8 +31,8 @@
     "KeyName": "4",
     "Index": 2,
     "TalkStage": 2,
-    "Object": 0,
-    "TalkText": "（父亲把我撂倒在地），我",
+    "Object": 2,
+    "TalkText": "（被撂倒在地）",
     "ItemSchedule": 2
   },
   {
@@ -40,8 +40,8 @@
     "KeyName": "5",
     "Index": 3,
     "TalkStage": 3,
-    "Object": 0,
-    "TalkText": "（父亲仔细查看确保剑没被挪动）",
+    "Object": 2,
+    "TalkText": "（查看确保剑没被挪动）",
     "ItemSchedule": 2
   },
   {
@@ -49,8 +49,8 @@
     "KeyName": "6",
     "Index": 4,
     "TalkStage": 4,
-    "Object": 0,
-    "TalkText": "（父亲瞪着我，表示不满，和无奈）",
+    "Object": 2,
+    "TalkText": "（满脸的无奈与不满）",
     "ItemSchedule": 2
   }
 ]

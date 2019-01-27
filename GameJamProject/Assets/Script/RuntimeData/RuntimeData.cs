@@ -108,6 +108,9 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		// 更换游戏状态
 		_state = GameState.Father;
         MusicManager.instance.SetBgm(PathManager.father_Bgm);
+
+		// 播放一个转场
+
 	}
     public void UpdateState(int Pressure,int Healthy,int Happiness, int Riches)
     {

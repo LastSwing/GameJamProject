@@ -64,8 +64,7 @@ public class BottomFrameView : BaseUIView
 
 	public void UpdateFatherText() {
 		StorageManager.getInstance().saveStuffId(_nowStage);
-		// Id 表示 options 选择 Id stage 表示 stuff Id
-		_SquirefatherOpts
+		// Id 表示 options 选择 Id stage 表示 stuff Id， 这里需要通过 options 显示父亲的语句
 		//ContentText.text = name[text.Object] + text.TalkText;
 	}
 

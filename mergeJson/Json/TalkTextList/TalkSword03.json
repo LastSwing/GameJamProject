@@ -56,7 +56,7 @@
   {
     "Id": 7,
     "KeyName": "7",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 1,
     "TalkText": "希望未来你会主动告诉我。",
@@ -92,7 +92,7 @@
   {
     "Id": 11,
     "KeyName": "11",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "等你正式成为骑士了，我会告诉你的。",
@@ -128,7 +128,7 @@
   {
     "Id": 15,
     "KeyName": "15",
-    "Index": 4,
+    "Index": 0,
     "TalkStage": 4,
     "Object": 2,
     "TalkText": "不管怎么样，这把剑，今天归你了，至于怎么做，就有你来抉择。",

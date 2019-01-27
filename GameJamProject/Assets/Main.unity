@@ -956,49 +956,11 @@ Camera:
   m_PrefabParentObject: {fileID: 20422054409284002, guid: 7e50bda534e8e3f4cbda155f1108c89a,
     type: 2}
   m_PrefabInternal: {fileID: 1457988504}
---- !u!1 &1915802624 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1594122278467372, guid: d8bb7ded1fd3b284d92e7f46c4ff5757,
-    type: 2}
-  m_PrefabInternal: {fileID: 279609407}
---- !u!114 &1915802626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1915802624}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b765e0b5af3bcf4a9deb5895e477da8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offsetFactor: 0
-  offsetUnits: 0
-  _downsampleFactor: 4
-  _iterations: 2
-  _blurMinSpread: 1.04
-  _blurSpread: 0.51
-  _blurIntensity: 0.348
 --- !u!20 &1915802627 stripped
 Camera:
   m_PrefabParentObject: {fileID: 20002057104319322, guid: d8bb7ded1fd3b284d92e7f46c4ff5757,
     type: 2}
   m_PrefabInternal: {fileID: 279609407}
---- !u!114 &1915802628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1915802624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -768656878, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EventMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_MaxRayIntersections: 0
 --- !u!1 &1934923596 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1457037322550246, guid: ba1a0a9e6e4754846af438d258ded72c,

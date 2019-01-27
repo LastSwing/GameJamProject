@@ -77,7 +77,7 @@ public class BottomFrameView : BaseUIView
 	#region create ItemMessageBox
 	// 只提供 2 / 3 个选项的选择框
     public void UpdateChoose(List<OptionList> optionList) {
-		if (optionList.Count == 2)
+		if (optionList.Count == 3)
 		{
 			// create new Object with 3 option
 			createTreeItemMessageBox(optionList);

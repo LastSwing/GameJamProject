@@ -137,7 +137,7 @@
   {
     "Id": 16,
     "KeyName": "16",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 3,
     "TalkText": "晚安晚安小朋友。",
@@ -155,7 +155,7 @@
   {
     "Id": 18,
     "KeyName": "18",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 1,
     "TalkText": "啊！！！！",

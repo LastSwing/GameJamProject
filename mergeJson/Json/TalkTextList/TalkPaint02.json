@@ -47,7 +47,7 @@
   {
     "Id": 6,
     "KeyName": "6",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 2,
     "TalkText": "永远不要说这是你母亲",
@@ -56,7 +56,7 @@
   {
     "Id": 7,
     "KeyName": "7",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "那些人，居然还活的好好的",
@@ -65,7 +65,7 @@
   {
     "Id": 8,
     "KeyName": "8",
-    "Index": 4,
+    "Index": 0,
     "TalkStage": 4,
     "Object": 2,
     "TalkText": "因为今天是个特别的日子",

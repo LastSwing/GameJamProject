@@ -56,8 +56,8 @@
   {
     "Id": 7,
     "KeyName": "7",
-    "Index": 2,
-    "TalkStage": 2,
+    "Index": 0,
+    "TalkStage": 3,
     "Object": 2,
     "TalkText": "以后不要乱动了。",
     "ItemSchedule": -1
@@ -65,7 +65,7 @@
   {
     "Id": 8,
     "KeyName": "8",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "以后不要乱动了。",
@@ -128,7 +128,7 @@
   {
     "Id": 15,
     "KeyName": "15",
-    "Index": 4,
+    "Index": 0,
     "TalkStage": 4,
     "Object": 2,
     "TalkText": "很严厉。",

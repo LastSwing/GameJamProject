@@ -29,7 +29,7 @@
   {
     "Id": 4,
     "KeyName": "4",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 2,
     "TalkText": "你不需要知道。",
@@ -38,7 +38,7 @@
   {
     "Id": 5,
     "KeyName": "5",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 2,
     "TalkText": "（看了看Hughes，也沉默了下来）",

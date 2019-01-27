@@ -110,7 +110,7 @@
   {
     "Id": 13,
     "KeyName": "13",
-    "Index": 2,
+    "Index": 0,
     "TalkStage": 2,
     "Object": 2,
     "TalkText": "醉酒过去的样子也很像我。",
@@ -146,7 +146,7 @@
   {
     "Id": 17,
     "KeyName": "17",
-    "Index": 3,
+    "Index": 0,
     "TalkStage": 3,
     "Object": 0,
     "TalkText": "（父亲连续又痛饮了几杯，满意的睡了）",

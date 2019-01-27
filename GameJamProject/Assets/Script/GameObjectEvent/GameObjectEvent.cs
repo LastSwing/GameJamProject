@@ -27,11 +27,11 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 	// show the scrollview
 	public void OnPointerEnter(PointerEventData eventData) {
 		Debug.Log("enter");
-		//_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
+		_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
 	}
 
 	public void OnPointerExit(PointerEventData eventData) {
-		//_hightLight.ConstantOff();
+		_hightLight.ConstantOff();
 	}
 
 	public void setClock(bool value)

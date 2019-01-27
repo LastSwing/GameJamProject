@@ -41,6 +41,10 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	public GameObject testObj;
 
 	public void Init() {
+        for(int i=0;i< stuffList.Length; i++)
+        {
+            stuffList[i].init(this);
+        }
 		runtime = RuntimeData.instance;
 		testObj.AddComponent<Highlighter>();
 		testObj.GetComponent<GameObjectEvent>().init(this);

@@ -8,7 +8,7 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 {
     public int ID;
 	private bool isEnter = false;
-	private bool isClock = false;
+	private bool isClock = true;
 	private Highlighter _hightLight;
 	private GameObjectEventManager _manager;
 
@@ -18,7 +18,7 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 	}
 
     public void OnPointerClick(PointerEventData eventData) {
-		if (!isClock)
+		if (isClock)
 		{
 			isClock = true;
 			_manager.startEvent(this);
@@ -27,11 +27,11 @@ public class GameObjectEvent : MonoBehaviour, IPointerClickHandler,IPointerEnter
 	// show the scrollview
 	public void OnPointerEnter(PointerEventData eventData) {
 		Debug.Log("enter");
-		_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
+		//_hightLight.ConstantOn(new Color(244.0f / 255.0f, 208.0f / 255.0f, 63.0f / 255.0f));
 	}
 
 	public void OnPointerExit(PointerEventData eventData) {
-		_hightLight.ConstantOff();
+		//_hightLight.ConstantOff();
 	}
 
 	public void setClock(bool value)

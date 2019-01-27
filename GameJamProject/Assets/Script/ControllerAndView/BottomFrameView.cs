@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class BottomFrameView : BaseUIView
 {
+    public GameObject FatherPic, SonPic, ParrotPic;
     public Text ContentText;
 	#region privData
-	private Dictionary<int, List<TalkList>> _talkDic;
+    private Dictionary<int, List<TalkList>> _talkDic;
     private Dictionary<int, List<OptionList>> _optionDic;
 	private List<OptionList> _fatherOpts = null;
 	private List<string> fatherEventList = null;
@@ -21,8 +22,9 @@ public class BottomFrameView : BaseUIView
 	public GameObject twoOptionPrefab;
 
     public bool isChooseState = false;
-	private bool isFatherEvent = false;
-    string[] name = {"","我:","父亲:"};
+    public bool isFatherEvent = false;
+
+
 
     public BottomFrameView(string UIViewName, Transform parent) : base(UIViewName, parent){}
 
@@ -30,6 +32,9 @@ public class BottomFrameView : BaseUIView
     {
         base.Init();
         ContentText = GetGameObjectByName("ContentText").GetComponent<Text>();
+        FatherPic = GetGameObjectByName("FatherPic");
+        SonPic = GetGameObjectByName("SonPic");
+        ParrotPic = GetGameObjectByName("ParrotPic");
     }
 	// 从GameObjectEventManager 中获取初始化的对象数据
     public void StartUpdateContent(Dictionary<int/*stage*/, List<TalkList>> talkDic, Dictionary<int/*stage,从1开始*/, List<OptionList>> optionDic, List<OptionList> fatherOpts)
@@ -59,7 +64,7 @@ public class BottomFrameView : BaseUIView
 	}
 	// 这里调用的时候 Stage 还没有更新，调用在 stage 之前，这里是用于记录 stuffer 的 stage， 
 	public void UpdateFatherText() {
-		// ContentText.text = name[text.Object] + text.TalkText;
+		//ContentText.text = name[text.Object] + text.TalkText;
 		// UpdateText();
 	}
 	// 展示父亲每一天的事件, 使用 isFatherEvent 做标记
@@ -70,7 +75,7 @@ public class BottomFrameView : BaseUIView
 	}
 	#region create ItemMessageBox
 	// 只提供 2 / 3 个选项的选择框
-	public void UpdateChoose(List<OptionList> optionList) {
+    public void UpdateChoose(List<OptionList> optionList) {
 		if (optionList.Count == 2)
 		{
 			// create new Object with 3 option
@@ -100,17 +105,20 @@ public class BottomFrameView : BaseUIView
 	}
 	#endregion
 	public override void Update()
-	{
+	{ 
 		if (Input.GetMouseButtonDown(0) && isChooseState == false)
 		{
 			NextText();
+            MusicManager.instance.SetSoundEffect(PathManager.click_Sound);
+            OtherStateController.Instance.View.CheckActor();
+            OwnStateController.Instance.View.CheckActor();
 		}
 		else if (Input.GetMouseButtonDown(0) && isFatherEvent) {
 			isFatherEvent = false;
 			BottomFrameController.Instance.HideView();
 			// 执行当天的对话内容，存储的数据
 			triggerTalkEvent();
-		}
+    }
     }
 
 	private void triggerTalkEvent() {
@@ -122,7 +130,31 @@ public class BottomFrameView : BaseUIView
 		if (hasNext(groupList))
 		{
 			TalkList text = groupList[_nowCount];
-			ContentText.text = name[text.Object] + text.TalkText;
+            if (text.Object==0)
+            {
+                FatherPic.SetActive(false);
+                SonPic.SetActive(false);
+                ParrotPic.SetActive(false);
+            }
+            else if (text.Object ==1)
+            {
+                FatherPic.SetActive(false);
+                SonPic.SetActive(true);
+                ParrotPic.SetActive(false);
+            }
+            else if (text.Object == 2)
+            {
+                FatherPic.SetActive(true);
+                SonPic.SetActive(false);
+                ParrotPic.SetActive(false);
+            }
+            else if (text.Object == 3)
+            {
+                FatherPic.SetActive(false);
+                SonPic.SetActive(false);
+                ParrotPic.SetActive(true);
+            }
+            ContentText.text = RuntimeData.instance.name[text.Object] + text.TalkText;
 			_nowCount++;
 		}
 		else

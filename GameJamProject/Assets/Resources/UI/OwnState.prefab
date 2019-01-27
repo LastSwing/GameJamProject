@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222790004562817810}
   - component: {fileID: 114991204501077218}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: PressureText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 222251858831086440}
   - component: {fileID: 114201792182128536}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: HealthyText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

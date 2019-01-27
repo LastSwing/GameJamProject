@@ -66,10 +66,11 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 	// 对话进行时,
 	public void convercation() {
-		//BottomFrameController.Instance.XX(talkList);
-	}
+		
+        BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic);
+    }
 
-	public void stopConvercation() {
+    public void stopConvercation() {
 		clearDicGroup();
 		runtime.passDay();
 	}

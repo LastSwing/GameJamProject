@@ -85,4 +85,12 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		// 刷新物体状态，不刷物体位置，不切换移动了
 		GameObjectEventManager.instance.resetAllStuff();
 	}
+    public void UpdateState(int Pressure,int Healthy,int Happiness, int Riches)
+    {
+        //todo,计算函数
+        //判断周目
+        //OtherStateController.Instance.View.UpdateState(压力,健康);
+        //OwnStateController.Instance.View.UpdateState(压力,健康);
+        //HomeStateController.Instance.View.UpdateState(和睦,财富);
+    }
 }

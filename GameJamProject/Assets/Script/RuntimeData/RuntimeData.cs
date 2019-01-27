@@ -68,6 +68,10 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	public void setGameState(GameState value) {
 		_state = value;
 	}
+
+	public GameState getGameState() {
+		return _state;
+	}
 	// 
 	public void passDay() {
 		rounds--;
@@ -87,12 +91,16 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 
 	// show scrollView, and many event summary
 	public void GameOver() {
-		
+		// playAnimation
 	}
 
 	public void SwitchRoundTwo() {
 		// 刷新物体状态，不刷物体位置，不切换移动了
 		GameObjectEventManager.instance.resetAllStuff();
+		// 重置摄像机
+		_camCtrl.resetAll();
+		// 更换游戏状态
+		_state = GameState.Father;
 	}
     public void UpdateState(int Pressure,int Healthy,int Happiness, int Riches)
     {

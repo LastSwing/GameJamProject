@@ -10,7 +10,8 @@ public class BottomFrameView : BaseUIView
 	#region privData
     private Dictionary<int, List<TalkList>> _talkDic;
     private Dictionary<int, List<OptionList>> _optionDic;
-	private List<SquireObj> _fatherOpts = null;
+	// 父亲选择事件
+	private Dictionary<int, List<SquireObj>> _SquirefatherOpts = null;
 	private List<string> fatherEventList = null;
 	#endregion
 	// keep the talkDic stage and count
@@ -35,11 +36,11 @@ public class BottomFrameView : BaseUIView
         ParrotPic = GetGameObjectByName("ParrotPic");
     }
 	// 从GameObjectEventManager 中获取初始化的对象数据
-    public void StartUpdateContent(Dictionary<int/*stage*/, List<TalkList>> talkDic, Dictionary<int/*stage,从1开始*/, List<OptionList>> optionDic, List<SquireObj> fatherOpts)
+    public void StartUpdateContent(Dictionary<int/*stage*/, List<TalkList>> talkDic, Dictionary<int/*stage,从1开始*/, List<OptionList>> optionDic, Dictionary<int, List<SquireObj>> SquirefatherOpts)
     {
 		_talkDic = talkDic;
 		_optionDic = optionDic;
-		if (_fatherOpts == null) _fatherOpts = fatherOpts;
+		if (_SquirefatherOpts == null) _SquirefatherOpts = SquirefatherOpts;
 		BottomFrameController.Instance.ShowView();
         UpdateText();
     }
@@ -60,11 +61,14 @@ public class BottomFrameView : BaseUIView
 
 		showNewDayEvent(eventObj);
 	}
-	// 这里调用的时候 Stage 还没有更新，调用在 stage 之前，这里是用于记录 stuffer 的 stage， 
+
 	public void UpdateFatherText() {
+		StorageManager.getInstance().saveStuffId(_nowStage);
+		// Id 表示 options 选择 Id stage 表示 stuff Id
+		_SquirefatherOpts
 		//ContentText.text = name[text.Object] + text.TalkText;
-		// UpdateText();
 	}
+
 	// 展示父亲每一天的事件, 使用 isFatherEvent 做标记
 	private void showNewDayEvent(string content) {
 		isFatherEvent = true;

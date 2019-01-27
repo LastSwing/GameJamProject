@@ -71,8 +71,8 @@ public class JsonLoader {
 		return JsonHelper.FromJson<PropObj>(json);
 	}
 
-	public List<SquireObj> parseSquireOptionsData(string json) {
-		return JsonUtility.FromJson<List<SquireObj>>(json);
+	public SquireObj[] parseSquireOptionsData(string json) {
+		return JsonHelper.FromJson<SquireObj>(json);
 	}
 
 }

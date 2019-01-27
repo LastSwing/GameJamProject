@@ -22,8 +22,12 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	#region record the data
 	private List<StuffGroup> stuffs = new List<StuffGroup>();
 	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
-	private List<SquireObj> fatherOpts = new List<SquireObj>();
-	private List<fatherEventObj> fatherEvent = new List<fatherEventObj>();
+
+	private List<fatherEventObj> fatherEvent = new List<fatherEventObj>();// 暂时没用
+	// Json 内容
+	private SquireObj[] fatherOpts;
+	// 父亲的选择事件
+	private Dictionary<int, List<SquireObj>> SquirefatherOpts = new Dictionary<int, List<SquireObj>>();
 	#endregion
 	#region currentStuffEvent
 	private Dictionary<int, List<TalkList>> talkDic = new Dictionary<int, List<TalkList>>();
@@ -47,8 +51,8 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		_loader = JsonLoader.getInstance();
 		loadStuffJson();
 		loadPropJson();
+		loadFatherOptionJson();
 		loadFatherEventJson();
-		//loadFatherJson();
 	}
 	// 开始对话
 	public void startEvent(GameObjectEvent obj) {
@@ -72,9 +76,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 	// 对话进行时,
 	public void convercation() {
-
-        
-        BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic, fatherOpts);
+        BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic, SquirefatherOpts);
         OwnStateController.Instance.ShowView();
         OtherStateController.Instance.ShowView();
         OtherStateController.Instance.View.CheckActor();
@@ -173,6 +175,24 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 			}
 		}
 	}
+
+	private SquireObj[] loadFatherOptionJson() {
+		_loader.setPath(fatherOptionsPath);
+		string content = _loader.getJsonData();
+		fatherOpts = _loader.parseSquireOptionsData(content);
+
+		for (int i = 0; i < fatherOpts.Length; i++) {
+			SquireObj obj = fatherOpts[i];
+			if (!SquirefatherOpts.ContainsKey(obj.Id)) {
+				List<SquireObj> lists = new List<SquireObj>();
+				lists.Add(obj);
+				SquirefatherOpts.Add(obj.Id, lists);
+			}
+		}
+
+		return fatherOpts;
+	}
+
 	// load Stuff Data
 	private void loadStuffJson()
 	{

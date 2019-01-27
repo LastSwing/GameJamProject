@@ -46,6 +46,10 @@ public class JsonLoader {
 		return Path.GetFileName(_path);
 	}
 
+	public List<fatherEventObj> parseFatherEventData(string json) {
+		return JsonUtility.FromJson<List<fatherEventObj>>(json);
+	}
+
 	// 解析 stuff json 数据
 	public List<StuffGroup> parseStuffJsonData(string json) {
 		try
@@ -67,7 +71,8 @@ public class JsonLoader {
 		return JsonHelper.FromJson<PropObj>(json);
 	}
 
-	public List<OptionList> parseOptionJsonData(string json) {
+	public List<OptionList> parseSquireOptionsData(string json) {
 		return JsonUtility.FromJson<List<OptionList>>(json);
 	}
+
 }

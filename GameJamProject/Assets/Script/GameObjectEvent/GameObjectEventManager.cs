@@ -6,12 +6,16 @@ using System;
 
 public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventManager> {
 
+	#region paths
 	[Tooltip("Please input the Stuff json relative path.")]
 	public string stuffJsonPath;
 	[Tooltip("Please input the Prop json relative path.")]
 	public string propJsonPath;
-	[Tooltip("Please input the father json relative path.")]
+	[Tooltip("Please input the father option json relative path.")]
 	public string fatherOptionsPath;
+	[Tooltip("Please input the father event json relative path.")]
+	public string fatherEventPath;
+	#endregion
 	// json loader
 	private JsonLoader _loader;
 	private RuntimeData runtime;
@@ -19,6 +23,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	private List<StuffGroup> stuffs = new List<StuffGroup>();
 	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
 	private List<OptionList> fatherOpts = new List<OptionList>();
+	private List<fatherEventObj> fatherEvent = new List<fatherEventObj>();
 	#endregion
 	#region currentStuffEvent
 	private Dictionary<int, List<TalkList>> talkDic = new Dictionary<int, List<TalkList>>();
@@ -42,6 +47,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		_loader = JsonLoader.getInstance();
 		loadStuffJson();
 		loadPropJson();
+		loadFatherEventJson();
 		//loadFatherJson();
 	}
 	// 开始对话
@@ -50,7 +56,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		int id = obj.ID;
 		currentForceObj = obj.gameObject;
 
-		StuffGroup group = stuffs.Find(ele => ele.ItemId == id);
+		StuffGroup group = stuffs.Find(ele => ele.Id == id);
 		if (group == null) {
 			Debug.LogError("GameObjectEventManager: Stuff Id get error.");
 			return;
@@ -66,7 +72,6 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 	// 对话进行时,
 	public void convercation() {
-		
         BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic, fatherOpts);
     }
 
@@ -95,11 +100,34 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		talkDic.Clear();
 		optionDic.Clear();
 	}
-
 	// 第一天数据
 	private void FirstDay() {
 		Debug.Log("First day");
-		// show scrollView block
+		// show play animation
+	}
+
+	public void FatherNextDayEvent() {
+		BottomFrameController.Instance.View.NewDayEvent();
+	}
+
+	public List<string> getFatherEventList() {
+		List<int> stuffIdList = StorageManager.getInstance().getStuffId();
+		if (fatherEvent.Count > 0 && stuffIdList.Count > 0) {
+			List<string> lists = new List<string>();
+			for (int i = 0; i < stuffIdList.Count; i++)
+			{
+				int index = stuffIdList[i];
+				for (int j = 0; j < fatherEvent.Count; j++)
+				{
+					lists.Add(fatherEvent[j].content);
+				}
+			}
+			return lists;
+		}
+		else {
+			Debug.LogWarning("GameObjectEventManager: FatherEvent List error");
+			return null;
+		}	
 	}
 
 	private void analysisTalkList(TalkList[] talkLists) {
@@ -221,13 +249,31 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		{
 			_loader.setPath(fatherOptionsPath);
 			string content = _loader.getJsonData();
-			fatherOpts = _loader.parseOptionJsonData(content);
+			fatherOpts = _loader.parseSquireOptionsData(content);
 		}
 		catch (Exception e)
 		{
 			Debug.LogException(e);
 			return;
 		}
+	}
 
+	private void loadFatherEventJson() {
+		if (String.IsNullOrEmpty(fatherEventPath))
+		{
+			Debug.LogWarning("fatherOptionsPath is empty");
+			return;
+		}
+		try
+		{
+			_loader.setPath(fatherEventPath);
+			string content = _loader.getJsonData();
+			fatherEvent = _loader.parseFatherEventData(content);
+		}
+		catch (Exception e)
+		{
+			Debug.LogException(e);
+			return;
+		}
 	}
 }

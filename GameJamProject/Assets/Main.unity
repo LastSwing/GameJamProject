@@ -181,6 +181,7 @@ MonoBehaviour:
   stuffJsonPath: ./Resources/Json/Merge/Stuffs.json
   propJsonPath: ./Resources/Json/PropertyList/PropertyList.json
   fatherOptionsPath: 
+  fatherEventPath: 
   stuffList: []
   testObj: {fileID: 2115165563}
 --- !u!114 &41071974
@@ -657,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 853701
+  ID: 1
 --- !u!23 &2115165565
 MeshRenderer:
   m_ObjectHideFlags: 0

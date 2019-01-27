@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "这些是什么？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "土豆炖鸡或者鸡炖土豆？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "这味道好奇怪。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "我决定还不错。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "你在做什么？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "我不想在今天丧命。",
+    "ItemSchedule": -1
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "是不是还不错？",
+    "ItemSchedule": -1
+  }
+]

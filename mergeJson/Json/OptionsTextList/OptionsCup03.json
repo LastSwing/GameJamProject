@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 2,
+    "OptionsStage": 1,
+    "OptionsText": "想知道。",
+    "Pressure1": 1,
+    "ThresholdValue": 0,
+    "Pressure2": -5,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": 3,
+    "Riches": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 2,
+    "OptionsStage": 1,
+    "OptionsText": "很在意。",
+    "Pressure1": 1,
+    "ThresholdValue": 0,
+    "Pressure2": -5,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": 3,
+    "Riches": 0
+  }
+]

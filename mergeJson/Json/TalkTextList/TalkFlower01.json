@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（蒲公英四海为家，温暖大地）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 0,
+    "TalkText": "（一股力量涌上来）",
+    "ItemSchedule": 2
+  }
+]

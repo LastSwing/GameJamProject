@@ -24,8 +24,6 @@ public class BottomFrameView : BaseUIView
     public bool isChooseState = false;
     public bool isFatherEvent = false;
 
-
-
     public BottomFrameView(string UIViewName, Transform parent) : base(UIViewName, parent){}
 
     protected override void Init()

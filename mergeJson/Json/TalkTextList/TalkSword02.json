@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "这把剑居然在发光？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "怎么回事？！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "难道注入了魔力？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 0,
+    "TalkText": "被光芒刺伤",
+    "ItemSchedule": 3
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "停下来，那是我的儿子。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 0,
+    "TalkText": "剑的光芒逐渐消失。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "是什么情况。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "跟你无关。",
+    "ItemSchedule": 3
+  }
+]

@@ -5,7 +5,6 @@
     "Index": 1,
     "TalkStage": 1,
     "Object": 0,
-    "OptionsNumber": 0,
     "TalkText": "(这个杯子和其他的有些不一样)",
     "ItemSchedule": 0
   },
@@ -15,7 +14,6 @@
     "Index": 1,
     "TalkStage": 1,
     "Object": 2,
-    "OptionsNumber": 0,
     "TalkText": "不要动那个杯子。",
     "ItemSchedule": 0
   },
@@ -25,7 +23,6 @@
     "Index": 2,
     "TalkStage": 2,
     "Object": 2,
-    "OptionsNumber": 0,
     "TalkText": "我说了,不要动它！",
     "ItemSchedule": 0
   },
@@ -35,7 +32,6 @@
     "Index": 2,
     "TalkStage": 2,
     "Object": 1,
-    "OptionsNumber": 0,
     "TalkText": "这个杯子怎么了？",
     "ItemSchedule": 0
   },
@@ -45,7 +41,6 @@
     "Index": 2,
     "TalkStage": 2,
     "Object": 2,
-    "OptionsNumber": 0,
     "TalkText": "这和你没关系。",
     "ItemSchedule": 0
   },
@@ -55,7 +50,6 @@
     "Index": 2,
     "TalkStage": 2,
     "Object": 1,
-    "OptionsNumber": 0,
     "TalkText": "（默默放下杯子）",
     "ItemSchedule": 2
   },
@@ -65,7 +59,6 @@
     "Index": 3,
     "TalkStage": 3,
     "Object": 2,
-    "OptionsNumber": 0,
     "TalkText": "这和你没关系。",
     "ItemSchedule": 0
   },
@@ -75,7 +68,6 @@
     "Index": 3,
     "TalkStage": 3,
     "Object": 0,
-    "OptionsNumber": 0,
     "TalkText": "（默默放下杯子）",
     "ItemSchedule": 2
   },
@@ -85,7 +77,6 @@
     "Index": 4,
     "TalkStage": 4,
     "Object": 2,
-    "OptionsNumber": 0,
     "TalkText": "等时机到了，自然会跟你解释。",
     "ItemSchedule": 2
   }

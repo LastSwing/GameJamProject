@@ -79,9 +79,14 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		{
 			GameOver();
 		}
-		else if (rounds <= 0){
+		else if (rounds <= 0 && _state != GameState.Father)
+		{
 			// state = GameState.Child
 			SwitchRoundTwo();
+		}
+		else if (rounds > 0 && _state == GameState.Father) {
+			// play the new event
+			GameObjectEventManager.instance.FatherNextDayEvent();
 		}
 	}
 
@@ -101,6 +106,7 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 		_camCtrl.resetAll();
 		// 更换游戏状态
 		_state = GameState.Father;
+		rounds = StorageManager.getInstance().getStuffId().Count;
 	}
     public void UpdateState(int Pressure,int Healthy,int Happiness, int Riches)
     {

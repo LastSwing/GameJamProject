@@ -28,4 +28,8 @@ public class StorageManager {
 	public List<int> getOptionStorage() {
 		return childOptionId;
 	}
+
+	public List<int> getStuffId() {
+		return stuffId;
+	}
 }

@@ -153,8 +153,9 @@ GameObject:
   - component: {fileID: 33901271718597098}
   - component: {fileID: 65741993011590754}
   - component: {fileID: 23291625225919688}
+  - component: {fileID: 114901329353809520}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: ArtModelPaint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -233,8 +234,9 @@ GameObject:
   - component: {fileID: 4597442447976922}
   - component: {fileID: 33329129047999606}
   - component: {fileID: 23808772707613850}
+  - component: {fileID: 114092207925274292}
   m_Layer: 0
-  m_Name: "\u67F1\u4F53.006"
+  m_Name: ArtModelSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,7 +324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1257494651218470
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,8 +368,9 @@ GameObject:
   - component: {fileID: 4171954819315214}
   - component: {fileID: 33717412359293066}
   - component: {fileID: 23835999273910234}
+  - component: {fileID: 114329647048490598}
   m_Layer: 0
-  m_Name: barrel
+  m_Name: ArtModelBarre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -449,8 +452,9 @@ GameObject:
   - component: {fileID: 4025223063345222}
   - component: {fileID: 33241303955478944}
   - component: {fileID: 23166835864045292}
+  - component: {fileID: 114239635436000430}
   m_Layer: 0
-  m_Name: Icosphere.007
+  m_Name: ArtModelCup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,7 +537,7 @@ GameObject:
   - component: {fileID: 33742736040315930}
   - component: {fileID: 23601634230749164}
   m_Layer: 0
-  m_Name: barrel.001
+  m_Name: ArtModelBarre2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -682,6 +686,8 @@ GameObject:
   - component: {fileID: 4694520467129780}
   - component: {fileID: 20002057104319322}
   - component: {fileID: 114166572777158014}
+  - component: {fileID: 114820650452607856}
+  - component: {fileID: 114089011127831734}
   m_Layer: 0
   m_Name: cam main
   m_TagString: Untagged
@@ -766,8 +772,9 @@ GameObject:
   - component: {fileID: 4009726179161368}
   - component: {fileID: 33495093182853056}
   - component: {fileID: 23746320243704958}
+  - component: {fileID: 114747236004491240}
   m_Layer: 0
-  m_Name: wand
+  m_Name: ArtModelTwig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,8 +790,9 @@ GameObject:
   - component: {fileID: 4063151942493440}
   - component: {fileID: 33554285380137738}
   - component: {fileID: 23018347295879634}
+  - component: {fileID: 114050861881740968}
   m_Layer: 0
-  m_Name: Cube.017
+  m_Name: ArtModelOwl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -959,8 +967,9 @@ GameObject:
   - component: {fileID: 4626413133358836}
   - component: {fileID: 33307247404544098}
   - component: {fileID: 23573223248107004}
+  - component: {fileID: 114107859386372802}
   m_Layer: 0
-  m_Name: sword_2
+  m_Name: ArtModelSword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1060,6 +1069,7 @@ GameObject:
   - component: {fileID: 4368206504403780}
   - component: {fileID: 33831207488011244}
   - component: {fileID: 23862608667276886}
+  - component: {fileID: 114914238310171924}
   m_Layer: 0
   m_Name: Cylinder.005
   m_TagString: Untagged
@@ -3529,6 +3539,57 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114050861881740968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677530852405022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 14
+--- !u!114 &114089011127831734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594122278467372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -768656878, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
+--- !u!114 &114092207925274292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157398511050198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 6
+--- !u!114 &114107859386372802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1917191786458792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 9
 --- !u!114 &114166572777158014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3541,6 +3602,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 0ceb121633194fb4a8bdbc5a53f92940, type: 2}
+--- !u!114 &114239635436000430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361572853059778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+--- !u!114 &114329647048490598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263209550164612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 5
 --- !u!114 &114472784188752016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3553,6 +3638,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 0ceb121633194fb4a8bdbc5a53f92940, type: 2}
+--- !u!114 &114747236004491240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656153137848350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 12
+--- !u!114 &114820650452607856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594122278467372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b765e0b5af3bcf4a9deb5895e477da8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetFactor: 0
+  offsetUnits: 0
+  _downsampleFactor: 4
+  _iterations: 2
+  _blurMinSpread: 1.04
+  _blurSpread: 0.51
+  _blurIntensity: 0.348
+--- !u!114 &114901329353809520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100396152118094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 7
+--- !u!114 &114914238310171924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993543167696648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
 --- !u!124 &124581611921292414
 Behaviour:
   m_ObjectHideFlags: 1

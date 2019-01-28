@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（这幅画，感觉很熟悉）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "谁都不是",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "我能感觉到，她和我有关系。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "你不需要知道。",
+    "ItemSchedule": 2
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 0,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "（看了看Hughes，也沉默了下来）",
+    "ItemSchedule": -1
+  }
+]

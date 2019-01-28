@@ -19,22 +19,20 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	// json loader
 	private JsonLoader _loader;
 	private RuntimeData runtime;
+
 	#region record the data
 	private List<StuffGroup> stuffs = new List<StuffGroup>();
-	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
-
-	private List<fatherEventObj> fatherEvent = new List<fatherEventObj>();// 暂时没用
-	// Json 内容
-	private SquireObj[] fatherOpts;
-	// 父亲的选择事件
-	private Dictionary<int, List<SquireObj>> SquirefatherOpts = new Dictionary<int, List<SquireObj>>();
+	private List<fatherEventObj> _fatherEvent = new List<fatherEventObj>();// 暂时没用
 	#endregion
 	#region currentStuffEvent
 	private Dictionary<int, List<TalkList>> talkDic = new Dictionary<int, List<TalkList>>();
 	private Dictionary<int, List<OptionList>> optionDic = new Dictionary<int, List<OptionList>>();
 	#endregion
+	private Dictionary<int, List<SquireObj>> SquirefatherOpts = new Dictionary<int, List<SquireObj>>();
+	private Dictionary<KindOfState, List<PropObj>> propDic = new Dictionary<KindOfState, List<PropObj>>();
 	// 记录当前被点击物体
 	private GameObject currentForceObj = null;
+	private SquireObj[] _fatherOpts;
 
 	[Tooltip("All stuff in the Scene")]
 	public GameObjectEvent[] stuffList;
@@ -48,6 +46,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		runtime = RuntimeData.instance;
 		testObj.AddComponent<Highlighter>();
 		testObj.GetComponent<GameObjectEvent>().init(this);
+
 		FirstDay();
 	}
 
@@ -55,7 +54,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		_loader = JsonLoader.getInstance();
 		loadStuffJson();
 		loadPropJson();
-		loadFatherOptionJson();
+		loadFatherOptionsJson();
 		loadFatherEventJson();
 	}
 	// 开始对话
@@ -72,8 +71,8 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		TalkList[] talkLists = group.TalkList;
 		OptionList[] optionList = group.OptionList;
 		// update the dic
-		analysisTalkList(talkLists);
-		analysisOptionList(optionList);
+		analysisStuffTalkList(talkLists);
+		analysisStuffOptionList(optionList);
 		// start convercation
 		convercation();
 	}
@@ -82,9 +81,9 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 	public void convercation() {
         BottomFrameController.Instance.View.StartUpdateContent(talkDic,optionDic, SquirefatherOpts);
         OwnStateController.Instance.ShowView();
-        OtherStateController.Instance.ShowView();
+		OwnStateController.Instance.View.CheckActor();
+		OtherStateController.Instance.ShowView();
         OtherStateController.Instance.View.CheckActor();
-        OwnStateController.Instance.View.CheckActor();
     }
 
     public void stopConvercation() {
@@ -101,11 +100,9 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 				GameObjectEvent gbEvent = stuffList[j];
 				obj.SetActive(stuff.KeyName.Equals("1"));
 				gbEvent.setClock(false);
-				gbEvent.setEnter(false);
 			}
 		}
 	}
-
 	// 清空临时 dictionary
 	public void clearDicGroup()
 	{
@@ -124,14 +121,14 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 	public List<string> getFatherEventList() {
 		List<int> stuffIdList = StorageManager.getInstance().getStuffId();
-		if (fatherEvent.Count > 0 && stuffIdList.Count > 0) {
+		if (_fatherEvent.Count > 0 && stuffIdList.Count > 0) {
 			List<string> lists = new List<string>();
 			for (int i = 0; i < stuffIdList.Count; i++)
 			{
 				int index = stuffIdList[i];
-				for (int j = 0; j < fatherEvent.Count; j++)
+				for (int j = 0; j < _fatherEvent.Count; j++)
 				{
-					lists.Add(fatherEvent[j].content);
+					lists.Add(_fatherEvent[j].content);
 				}
 			}
 			return lists;
@@ -142,7 +139,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		}	
 	}
 
-	private void analysisTalkList(TalkList[] talkLists) {
+	private void analysisStuffTalkList(TalkList[] talkLists) {
 		// create the talkDic
 		for (int i = 0; i < talkLists.Length; i++)
 		{
@@ -161,7 +158,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		}
 	}
 
-	private void analysisOptionList(OptionList[] optionList) {
+	private void analysisStuffOptionList(OptionList[] optionList) {
 		// create the optionDic
 		for (int i = 0; i < optionList.Length; i++)
 		{
@@ -178,23 +175,6 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 				optionDic[stage].Add(talk);
 			}
 		}
-	}
-
-	private SquireObj[] loadFatherOptionJson() {
-		_loader.setPath(fatherOptionsPath);
-		string content = _loader.getJsonData();
-		fatherOpts = _loader.parseSquireOptionsData(content);
-
-		for (int i = 0; i < fatherOpts.Length; i++) {
-			SquireObj obj = fatherOpts[i];
-			if (!SquirefatherOpts.ContainsKey(obj.Id)) {
-				List<SquireObj> lists = new List<SquireObj>();
-				lists.Add(obj);
-				SquirefatherOpts.Add(obj.Id, lists);
-			}
-		}
-
-		return fatherOpts;
 	}
 
 	// load Stuff Data
@@ -228,7 +208,6 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		try
 		{
 			_loader.setPath(propJsonPath);
-			string name = _loader.getJsonName();
 			string content = _loader.getJsonData();
 			PropObj[] props = _loader.parsePropJsonData(content);
 
@@ -239,7 +218,6 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 
 			foreach (PropObj p in props)
 			{
-				KindOfState state;
 				switch ((KindOfState)p.Type)
 				{
 					case KindOfState.Healthy:
@@ -268,7 +246,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		}
 	}
 
-	private void loadFatherJson()
+	private void loadFatherOptionsJson()
 	{
 		if (String.IsNullOrEmpty(fatherOptionsPath))
 		{
@@ -279,7 +257,18 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		{
 			_loader.setPath(fatherOptionsPath);
 			string content = _loader.getJsonData();
-			fatherOpts = _loader.parseSquireOptionsData(content);
+			_fatherOpts = _loader.parseSquireOptionsData(content);
+
+			for (int i = 0; i < _fatherOpts.Length; i++)
+			{
+				SquireObj obj = _fatherOpts[i];
+				if (!SquirefatherOpts.ContainsKey(obj.Id))
+				{
+					List<SquireObj> lists = new List<SquireObj>();
+					lists.Add(obj);
+					SquirefatherOpts.Add(obj.Id, lists);
+				}
+			}
 		}
 		catch (Exception e)
 		{
@@ -298,7 +287,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 		{
 			_loader.setPath(fatherEventPath);
 			string content = _loader.getJsonData();
-			fatherEvent = _loader.parseFatherEventData(content);
+			_fatherEvent = _loader.parseFatherEventData(content);
 		}
 		catch (Exception e)
 		{
@@ -306,7 +295,7 @@ public class GameObjectEventManager : SingletonMonoBehaviour<GameObjectEventMana
 			return;
 		}
 	}
-
+	// test method
 	void RandomTriggerEvent() {
 		int count = stuffList.Length;
 		int index = (int)UnityEngine.Random.Range(0, count);

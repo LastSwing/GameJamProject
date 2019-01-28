@@ -12,12 +12,14 @@ public class BottomFrameView : BaseUIView
     private Dictionary<int, List<OptionList>> _optionDic;
 	// 父亲选择事件
 	private Dictionary<int, List<SquireObj>> _SquirefatherOpts = null;
+	// 暂时没用
 	private List<string> fatherEventList = null;
 	#endregion
 	// keep the talkDic stage and count
 	private int _nowStage = 1, _nowCount = 0;
 	// 记录当前 optionList 对象
 	private List<OptionList> _curOptionList;
+	private GameObjectEventManager _gameManager;
 
 	public GameObject threeOptionPrefab;
 	public GameObject twoOptionPrefab;
@@ -34,10 +36,16 @@ public class BottomFrameView : BaseUIView
         FatherPic = GetGameObjectByName("FatherPic");
         SonPic = GetGameObjectByName("SonPic");
         ParrotPic = GetGameObjectByName("ParrotPic");
-    }
+		_gameManager = GameObjectEventManager.instance;
+
+	}
 	// 从GameObjectEventManager 中获取初始化的对象数据
-    public void StartUpdateContent(Dictionary<int/*stage*/, List<TalkList>> talkDic, Dictionary<int/*stage,从1开始*/, List<OptionList>> optionDic, Dictionary<int, List<SquireObj>> SquirefatherOpts)
-    {
+    public void StartUpdateContent(
+		/*stage,从1开始*/
+		Dictionary<int, List<TalkList>> talkDic, 
+		Dictionary<int, List<OptionList>> optionDic, 
+		Dictionary<int, List<SquireObj>> SquirefatherOpts
+		) {
 		_talkDic = talkDic;
 		_optionDic = optionDic;
 		if (_SquirefatherOpts == null) _SquirefatherOpts = SquirefatherOpts;
@@ -54,7 +62,7 @@ public class BottomFrameView : BaseUIView
 
 	public void NewDayEvent() {
 		if (fatherEventList == null) {
-			fatherEventList = GameObjectEventManager.instance.getFatherEventList();
+			fatherEventList = _gameManager.getFatherEventList();
 		}
 		// 通过 storage id content 展示 event
 		string eventObj = fatherEventList[fatherEventList.Count - RuntimeData.instance.rounds];
@@ -172,7 +180,6 @@ public class BottomFrameView : BaseUIView
 				resetConver();
 				BottomFrameController.Instance.HideView();
 				Debug.Log("Conversation Over");
-				RuntimeData.instance.passDay();
 			}
 		}
 	}
@@ -189,7 +196,7 @@ public class BottomFrameView : BaseUIView
 	// 清理
 	private void resetConver()
 	{
-		GameObjectEventManager.instance.clearDicGroup();
+		_gameManager.stopConvercation();
 		_nowStage = 1;
 		_nowCount = 0;
 	}

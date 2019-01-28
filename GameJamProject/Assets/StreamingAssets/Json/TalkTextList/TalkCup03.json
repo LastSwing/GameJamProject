@@ -1,0 +1,137 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "你很在意你母亲的事情吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "你出生不久，你的母亲就被处决了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "处决？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "嗯，就因为她是女巫。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "女巫？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "嗯，她平时日常会用魔法解决日常一切问题。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "但是魔法也给我们带来不幸。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "就因为她会魔法？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "是。后来我心灰意冷，离开了皇家骑士团。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "皇家骑士团？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "嗯。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "太晚了，回去睡吧。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "再给我讲讲皇家骑士团的事情。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "没什么好说的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 0,
+    "TalkText": "（父亲径直的走回了房间，撞上了门）V",
+    "ItemSchedule": -1
+  }
+]

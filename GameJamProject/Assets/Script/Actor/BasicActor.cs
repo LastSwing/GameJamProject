@@ -8,6 +8,7 @@ public class BasicActor {
 	private float _harmonyValue = 0;
 	private float _moneyValue = 0;
 	private float _healthyValue = 0;
+	private string _name = "";
 
 	public BasicActor() { }
 	public BasicActor(float pressValue, float harmonyValue, float moneyValue, float healthyValue) {
@@ -46,6 +47,15 @@ public class BasicActor {
 	public float getHealthyValue() {
 		return _healthyValue;
 	}
+
+	public void setName(string value) {
+		_name = value;
+	}
+
+	public string getName() {
+		return _name;
+	}
+
 	#endregion
 	// reCalculate the value
 	public virtual void ReCalculPressValue() {}

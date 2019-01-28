@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 2,
+    "OptionsStage": 1,
+    "OptionsText": "倒掉。",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 1,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": -2,
+    "Riches": -1
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 2,
+    "OptionsStage": 1,
+    "OptionsText": "自己来做。",
+    "Pressure1": 1,
+    "ThresholdValue": 0,
+    "Pressure2": 1,
+    "Healthy1": -1,
+    "Healthy2": 0,
+    "Happiness": -1,
+    "Riches": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 3,
+    "OptionsStage": 1,
+    "OptionsText": "勉强吃。",
+    "Pressure1": 1,
+    "ThresholdValue": 0,
+    "Pressure2": -1,
+    "Healthy1": -2,
+    "Healthy2": 0,
+    "Happiness": 1,
+    "Riches": 0
+  }
+]

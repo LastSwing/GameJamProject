@@ -1,0 +1,119 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "咕咕咕",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "你在哪里咕咕个头啊，你又不会猫头鹰语。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（震惊，无话可说）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "被吓到了？明明在你小时候还哄过你睡觉。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "人类怎么这么健忘。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "因为我是夜行动物，所以平时和你们的作息时间错开了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "我把你吵醒了吗?",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "你发出了猫头鹰最难听的叫声，当然会吵醒我了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "挺好了，我们是这样叫的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "咕咕咕V",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "。。。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "记住以后不要用这种方式叫我起来了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "我继续睡了。",
+    "ItemSchedule": 2
+  }
+]

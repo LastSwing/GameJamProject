@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 2,
+    "OptionsStage": 1,
+    "OptionsText": "剑。",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 1,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": 0,
+    "Riches": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 3,
+    "OptionsStage": 1,
+    "OptionsText": "这把剑。",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 1,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": 0,
+    "Riches": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 4,
+    "OptionsStage": 1,
+    "OptionsText": "这把剑有熟悉的感觉。",
+    "Pressure1": 1,
+    "ThresholdValue": 0,
+    "Pressure2": -2,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": 1,
+    "Riches": 0
+  }
+]

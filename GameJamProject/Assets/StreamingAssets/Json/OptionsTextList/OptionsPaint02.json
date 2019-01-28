@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "OptionsStage": 1,
+    "OptionsText": "打开柜子",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 0,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": -2,
+    "Riches": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "OptionsStage": 1,
+    "OptionsText": "跑出门",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 0,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": -1,
+    "Riches": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "OptionsStage": 1,
+    "OptionsText": "呼喊父亲",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 0,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": 0,
+    "Riches": 0
+  }
+]

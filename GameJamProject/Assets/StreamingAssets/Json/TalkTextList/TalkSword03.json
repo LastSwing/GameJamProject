@@ -1,0 +1,137 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（来吧，我不怕）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（能遇到你，已经很不可惜思议了）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（亲爱的，我真的很幸福）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "这是？！谁的声音？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "父亲拍了拍愣住的我，问我在干嘛？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "等你正式成为骑士了，我会告诉你的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "希望未来你会主动告诉我。",
+    "ItemSchedule": -1
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "剑怎么了?",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "这！？可是皇家骑士团的佩剑啊！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "怎么会放在我家？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 0,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "等你正式成为骑士了，我会告诉你的。",
+    "ItemSchedule": -1
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 0,
+    "TalkText": "（父亲拍拍我的肩膀）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "你也许已经注意到了吧。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "也许我早就知道了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 0,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "不管怎么样，这把剑，今天归你了，至于怎么做，就有你来抉择。",
+    "ItemSchedule": -1
+  }
+]

@@ -1,0 +1,249 @@
+{
+  "Items": [
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "我说了,不要动它！"
+  },
+  {
+    "Id": 1,
+    "KeyName": "2",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "这和你没关系。"
+  },
+  {
+    "Id": 1,
+    "KeyName": "3",
+    "Stage": 1,
+    "Index": 4,
+    "OptionsText": "等时机到了，自然会跟你解释。"
+  },
+  {
+    "Id": 2,
+    "KeyName": "4",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "住手！"
+  },
+  {
+    "Id": 2,
+    "KeyName": "5",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "见习的。"
+  },
+  {
+    "Id": 2,
+    "KeyName": "6",
+    "Stage": 1,
+    "Index": 4,
+    "OptionsText": "现在还不是。"
+  },
+  {
+    "Id": 3,
+    "KeyName": "7",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "你出生不久，你的母亲就被处决了。"
+  },
+  {
+    "Id": 4,
+    "KeyName": "8",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "不愧是我儿子！！哈哈哈！！"
+  },
+  {
+    "Id": 4,
+    "KeyName": "9",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "骑士大人就是这样喝酒的吗？"
+  },
+  {
+    "Id": 5,
+    "KeyName": "10",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "还不如你上次的样子。"
+  },
+  {
+    "Id": 6,
+    "KeyName": "11",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "放回去。"
+  },
+  {
+    "Id": 6,
+    "KeyName": "12",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "以后不要乱动了。"
+  },
+  {
+    "Id": 6,
+    "KeyName": "13",
+    "Stage": 1,
+    "Index": 4,
+    "OptionsText": "因为我不会吸烟。"
+  },
+  {
+    "Id": 7,
+    "KeyName": "14",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "谁都不是"
+  },
+  {
+    "Id": 7,
+    "KeyName": "15",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "（看了看Hughes，也沉默了下来）"
+  },
+  {
+    "Id": 8,
+    "KeyName": "16",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "永远不要说这是你母亲"
+  },
+  {
+    "Id": 8,
+    "KeyName": "17",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "那些人，居然还活的好好的"
+  },
+  {
+    "Id": 8,
+    "KeyName": "18",
+    "Stage": 1,
+    "Index": 4,
+    "OptionsText": "因为今天是个特别的日子"
+  },
+  {
+    "Id": 9,
+    "KeyName": "19",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "（把Hdughes撂倒在地）"
+  },
+  {
+    "Id": 9,
+    "KeyName": "20",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "（查看确保剑没被挪动）"
+  },
+  {
+    "Id": 9,
+    "KeyName": "21",
+    "Stage": 1,
+    "Index": 4,
+    "OptionsText": "（无奈与不满）"
+  },
+  {
+    "Id": 10,
+    "KeyName": "22",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "停下来，那是我的儿子。"
+  },
+  {
+    "Id": 11,
+    "KeyName": "23",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "等你正式成为骑士了，我会告诉你的。"
+  },
+  {
+    "Id": 11,
+    "KeyName": "24",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "剑怎么了?"
+  },
+  {
+    "Id": 11,
+    "KeyName": "25",
+    "Stage": 1,
+    "Index": 4,
+    "OptionsText": "你也许已经注意到了吧。"
+  },
+  {
+    "Id": 12,
+    "KeyName": "26",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "没什么，法术我见多了。"
+  },
+  {
+    "Id": 12,
+    "KeyName": "27",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "哦。"
+  },
+  {
+    "Id": 12,
+    "KeyName": "28",
+    "Stage": 1,
+    "Index": 4,
+    "OptionsText": "嗯，很像你的母亲。"
+  },
+  {
+    "Id": 13,
+    "KeyName": "29",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "你！"
+  },
+  {
+    "Id": 13,
+    "KeyName": "30",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "希望，你不会和我一样。"
+  },
+  {
+    "Id": 17,
+    "KeyName": "31",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "你在做什么？"
+  },
+  {
+    "Id": 17,
+    "KeyName": "32",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "是不是还不错？"
+  },
+  {
+    "Id": 19,
+    "KeyName": "33",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "紫色的蒲公英就像是暗力量，神秘但又让人着迷"
+  },
+  {
+    "Id": 20,
+    "KeyName": "34",
+    "Stage": 1,
+    "Index": 2,
+    "OptionsText": "你进去了？"
+  },
+  {
+    "Id": 20,
+    "KeyName": "35",
+    "Stage": 1,
+    "Index": 3,
+    "OptionsText": "嗯，我知道了，明天我去买点。"
+  }
+]
+}

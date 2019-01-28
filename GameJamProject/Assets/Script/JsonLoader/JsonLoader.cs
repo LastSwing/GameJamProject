@@ -29,7 +29,7 @@ public class JsonLoader {
 			Debug.Log("JsonLoader: Path is undefined.");
 			return null;
 		}
-		StreamReader reader = new StreamReader(Application.dataPath + _path);
+		StreamReader reader = new StreamReader(Application.streamingAssetsPath + _path);
 		while (!reader.EndOfStream) {
 			string line = reader.ReadLine();
 			content += line;

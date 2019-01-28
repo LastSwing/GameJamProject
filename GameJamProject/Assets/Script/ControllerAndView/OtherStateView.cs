@@ -6,14 +6,22 @@ using UnityEngine.UI;
 public class OtherStateView : BaseUIView
 {
     public Text PressureText, HealthyText, Name;
-    public OtherStateView(string UIViewName, Transform parent) : base(UIViewName, parent)
-    {
+	private RuntimeData _runtime;
 
-    }
-    public override void ShowUIView()
+    public OtherStateView(string UIViewName, Transform parent) : base(UIViewName, parent) {}
+
+	protected override void Init()
+	{
+		base.Init();
+		PressureText = GetGameObjectByName("PressureText").GetComponent<Text>();
+		HealthyText = GetGameObjectByName("HealthyText").GetComponent<Text>();
+		Name = GetGameObjectByName("Name").GetComponent<Text>();
+		_runtime = RuntimeData.instance;
+	}
+
+	public override void ShowUIView()
     {
         base.ShowUIView();
-        
     }
     public void CheckActor()
     {
@@ -21,20 +29,14 @@ public class OtherStateView : BaseUIView
         switch (RuntimeData.instance.getGameState())
         {
             case GameState.Child:
-                Name.text = RuntimeData.instance.name[2];
+                Name.text = _runtime.getFather().getName();
                 break;
             case GameState.Father:
-                Name.text = RuntimeData.instance.name[1];
+				Name.text = _runtime.getChild().getName();
                 break;
         }
     }
-    protected override void Init()
-    {
-        base.Init();
-        PressureText = GetGameObjectByName("PressureText").GetComponent<Text>();
-        HealthyText = GetGameObjectByName("HealthyText").GetComponent<Text>();
-        Name = GetGameObjectByName("Name").GetComponent<Text>();
-    }
+    
     public void UpdateState(string p,string h)
     {
         PressureText.text = p;

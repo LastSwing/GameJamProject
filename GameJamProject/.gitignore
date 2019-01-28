@@ -29,3 +29,5 @@ sysinfo.txt
 .consulo/
 /*.tmp
 /*.svd
+
+exe

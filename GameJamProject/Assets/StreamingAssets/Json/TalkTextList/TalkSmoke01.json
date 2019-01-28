@@ -1,0 +1,137 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（材质非常上乘）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（有这么好的烟斗，为什么平时不用呢？）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "（那我拿走借用一下啦）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "谁让你拿走这个的呀？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "放回去。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "（默默放回去）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 0,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "以后不要乱动了。",
+    "ItemSchedule": -1
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 0,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "以后不要乱动了。",
+    "ItemSchedule": -1
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "因为我不会吸烟。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "那家里为什么有这个。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "你祖父最喜欢的烟斗就是这个了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "在我记忆里，父亲经常用这个烟斗敲我的脑袋。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "看到这个烟斗，就能想起父亲。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 4,
+    "TalkStage": 4,
+    "Object": 1,
+    "TalkText": "祖父很严厉吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 0,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "很严厉。",
+    "ItemSchedule": -1
+  }
+]

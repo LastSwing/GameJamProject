@@ -6,16 +6,17 @@ using UnityEngine.UI;
 public class OwnStateView : BaseUIView
 {
     public Text PressureText, HealthyText,Name;
-    public OwnStateView(string UIViewName, Transform parent) : base(UIViewName, parent)
-    {
+	private RuntimeData _runTime;
 
-    }
+
+    public OwnStateView(string UIViewName, Transform parent) : base(UIViewName, parent){}
     protected override void Init()
     {
         base.Init();
         PressureText = GetGameObjectByName("PressureText").GetComponent<Text>();
         HealthyText = GetGameObjectByName("HealthyText").GetComponent<Text>();
         Name = GetGameObjectByName("Name").GetComponent<Text>();
+		_runTime = RuntimeData.instance;
     }
     public override void ShowUIView()
     {
@@ -29,10 +30,10 @@ public class OwnStateView : BaseUIView
         switch (RuntimeData.instance.getGameState())
         {
             case GameState.Child:
-                Name.text = RuntimeData.instance.name[1];
+                Name.text = _runTime.getChild().getName();
                 break;
             case GameState.Father:
-                Name.text = RuntimeData.instance.name[2];
+                Name.text = _runTime.getFather().getName();
                 break;
         }
     }

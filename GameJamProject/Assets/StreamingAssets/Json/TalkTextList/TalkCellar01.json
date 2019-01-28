@@ -1,0 +1,200 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（有点松动，试试把它拉开）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（这都是什么？）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "木剑，木质玩具，工作台。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（这里是干什么的？）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "Hughes？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "（我要回去了）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "你进去了？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "是。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "这可不是一个骑士该有的行为。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "难道我在家里还要受到限制吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "记住，无论在哪里你都会有所限制，你不是完全自由。",
+    "ItemSchedule": -1
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "嗯，我知道了，明天我去买点。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "为什么不买点储存在地窖里呢？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "地窖还有其他东西要放。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "你的工作台吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 16,
+    "KeyName": "16",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "你看到了?",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 17,
+    "KeyName": "17",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "是，还有木质的玩具。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 18,
+    "KeyName": "18",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "那我也没什么好隐瞒的了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 19,
+    "KeyName": "19",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "入夏之后，木柴的需求量没有那么大了，所以收入会少一些，做些玩具来赚点钱。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 20,
+    "KeyName": "20",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "那为什么不寻找我帮忙，我是见习骑士，可以从事很多工作。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 21,
+    "KeyName": "21",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "还不到需要你的时候。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 22,
+    "KeyName": "22",
+    "Index": 0,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "你先成为正式的骑士再说吧。",
+    "ItemSchedule": -1
+  }
+]

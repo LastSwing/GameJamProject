@@ -83,7 +83,7 @@
   {
     "Id": 10,
     "KeyName": "10",
-    "Index": 1,
+    "Index": 0,
     "TalkStage": 1,
     "Object": 2,
     "TalkText": "干杯！",

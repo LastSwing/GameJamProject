@@ -184,9 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e6e5fcc6db1ad4488a739ae4e1223ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stuffJsonPath: ./Resources/Json/Merge/Stuffs.json
-  propJsonPath: ./Resources/Json/PropertyList.json
-  fatherOptionsPath: ./Resources/Json/SquireOptions.json
+  stuffJsonPath: ./Json/Merge/Stuffs.json
+  propJsonPath: ./Json/PropertyList.json
+  fatherOptionsPath: ./Json/SquireOptions.json
   fatherEventPath: 
   stuffList:
   - {fileID: 362131396}
@@ -293,6 +293,18 @@ Prefab:
     - target: {fileID: 1243058141653762, guid: d8bb7ded1fd3b284d92e7f46c4ff5757, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368206504403780, guid: d8bb7ded1fd3b284d92e7f46c4ff5757, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.0071
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368206504403780, guid: d8bb7ded1fd3b284d92e7f46c4ff5757, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.00488
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368206504403780, guid: d8bb7ded1fd3b284d92e7f46c4ff5757, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.244
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8bb7ded1fd3b284d92e7f46c4ff5757, type: 2}
@@ -533,7 +545,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -939,18 +951,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1993543167696648, guid: d8bb7ded1fd3b284d92e7f46c4ff5757,
     type: 2}
   m_PrefabInternal: {fileID: 279609407}
---- !u!114 &1846817222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1846817218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3442427911e7e334bad307a2d7f4f873, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 1
 --- !u!20 &1908900875 stripped
 Camera:
   m_PrefabParentObject: {fileID: 20422054409284002, guid: 7e50bda534e8e3f4cbda155f1108c89a,

@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "作为见习骑士那么久，都没挥舞过真正的剑呢",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "让我来试试吧！（准备拿起）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "别碰！（父亲冲过来喝止）",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "（被撂倒在地）",
+    "ItemSchedule": 2
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 0,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "（查看确保剑没被挪动）",
+    "ItemSchedule": 2
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 0,
+    "TalkStage": 4,
+    "Object": 2,
+    "TalkText": "（满脸的无奈与不满）",
+    "ItemSchedule": 2
+  }
+]

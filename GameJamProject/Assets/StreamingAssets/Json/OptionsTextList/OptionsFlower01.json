@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "OptionsStage": 1,
+    "OptionsText": "吹一下",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 0,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": -2,
+    "Riches": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "OptionsStage": 1,
+    "OptionsText": "捏碎",
+    "Pressure1": 0,
+    "ThresholdValue": 0,
+    "Pressure2": 0,
+    "Healthy1": 0,
+    "Healthy2": 0,
+    "Happiness": -1,
+    "Riches": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "OptionsStage": 1,
+    "OptionsText": "祈祷",
+    "Pressure1": -1,
+    "ThresholdValue": 0,
+    "Pressure2": 0,
+    "Healthy1": 1,
+    "Healthy2": 0,
+    "Happiness": 0,
+    "Riches": 0
+  }
+]

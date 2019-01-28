@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "居然变成了紫色？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "紫色的蒲公英就像是暗力量，神秘但又让人着迷",
+    "ItemSchedule": 0
+  }
+]

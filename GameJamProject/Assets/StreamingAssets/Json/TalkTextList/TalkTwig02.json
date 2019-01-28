@@ -1,0 +1,155 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 0,
+    "TalkText": "biu~biu~biu~",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "魔法真是太有意思了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "闭嘴，没有什么比魔法更邪恶的东西了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "我痛恨魔法。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "但是母亲就会使用魔法。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "我不是痛恨她会使用魔法，而是痛恨魔法本身。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "如果没有魔法，Alice也不会死。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 2,
+    "TalkText": "你以后不要使用魔法了。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "你！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "你为什么要重走你母亲的旧路呢。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "我的魔法拥有我母亲的荣誉。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 2,
+    "TalkText": "记住，荣誉是最重要的，不要让任何人侮辱你的荣誉。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "嗯。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "希望，你不会和我一样。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 1,
+    "TalkText": "你？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 16,
+    "KeyName": "16",
+    "Index": 3,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "没什么.",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 17,
+    "KeyName": "17",
+    "Index": 0,
+    "TalkStage": 3,
+    "Object": 2,
+    "TalkText": "（希望你能改变他们）",
+    "ItemSchedule": -1
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "Id": 1,
+    "KeyName": "1",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "Peill叔叔，还在睡吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 2,
+    "KeyName": "2",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "好呀Hughes，刚从骑士学院回来吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 3,
+    "KeyName": "3",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "当年Squire也像你一样勤奋。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 4,
+    "KeyName": "4",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "给我讲一讲父亲年轻时候的事情吧。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 5,
+    "KeyName": "5",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "那我就偷偷告诉你一些，不要跟Squire说是我说的。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 6,
+    "KeyName": "6",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "哇Peill叔叔真好！",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 7,
+    "KeyName": "7",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "Squire年轻的时候写给Alice的情书还是我给他出的主意。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 8,
+    "KeyName": "8",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "那时候我们每天都缠在一起，他说他的人生理想，我说的我的鸟生抱负。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 9,
+    "KeyName": "9",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 1,
+    "TalkText": "只有父亲知道你会说话吗？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 10,
+    "KeyName": "10",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "不呀，当时Squire身边的朋友和邻居都知道。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 11,
+    "KeyName": "11",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "不过后来搬到这里，一个孤僻的小村庄。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 12,
+    "KeyName": "12",
+    "Index": 1,
+    "TalkStage": 1,
+    "Object": 3,
+    "TalkText": "我知道他遭受了很多的悲惨命运，但是现在他在逃避。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 13,
+    "KeyName": "13",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "太多你不需要知道。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 14,
+    "KeyName": "14",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "看到现在的Squire我也很难过。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 15,
+    "KeyName": "15",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "毕竟我们就像家人一样。",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 16,
+    "KeyName": "16",
+    "Index": 2,
+    "TalkStage": 2,
+    "Object": 1,
+    "TalkText": "Peill叔叔？",
+    "ItemSchedule": 0
+  },
+  {
+    "Id": 17,
+    "KeyName": "17",
+    "Index": 0,
+    "TalkStage": 2,
+    "Object": 3,
+    "TalkText": "没事没事，记得下次要晚上找我聊天。",
+    "ItemSchedule": -1
+  }
+]

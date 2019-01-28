@@ -32,8 +32,6 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	public float fatherMoneyValue = 0;
 	public float fatherHealthyValue = 0;
 	#endregion
-	private Child _child;
-	private Father _father;
 	private GameState _state;
 	private CameraController _camCtrl;
 	// 回合日期
@@ -41,8 +39,12 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	// development
 	public bool isDevelop = true;
 
-    public string[] name = { "", "Hughes:", "Squire:", "Peill", "Alice" };
-    void Start () {
+    public string[] actorNames = { "", "Hughes:", "Squire:", "Peill", "Alice" };
+	// actors
+	private Child _child;
+	private Father _father;
+
+	void Start () {
 		Init();
 	}
 	public void Update()
@@ -55,17 +57,20 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
         UIRoot = GameObject.Find("UIRoot").transform;
         OtherRoot = GameObject.Find("OtherRoot").transform;
 		StartUIController.Instance.ShowView();
-
+		// create actor
 		_child = new Child(childPressValue, childHarmonyValue, childMoneyValue, childHealthyValue);
+		_child.setName(actorNames[2]);
+
 		_father = new Father(fatherPressValue, fatherHarmonyValue, fatherMoneyValue, fatherHealthyValue);
-		
+		_father.setName(actorNames[1]);
+
 		_state = GameState.Menu;
 		_camCtrl = GetComponent<CameraController>();
 
 		GameObjectEventManager.instance.Init();
 		GameObjectEventManager.instance.InitData();
 	}
-
+	#region GetSet
 	public void setGameState(GameState value) {
 		_state = value;
 	}
@@ -73,6 +78,15 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
 	public GameState getGameState() {
 		return _state;
 	}
+
+	public Child getChild() {
+		return _child;
+	}
+
+	public Father getFather() {
+		return _father;
+	}
+	#endregion
 	// 
 	public void passDay() {
 		rounds--;
@@ -110,6 +124,7 @@ public class RuntimeData : SingletonMonoBehaviour<RuntimeData> {
         MusicManager.instance.SetBgm(PathManager.father_Bgm);
 
 		// 播放一个转场
+		Debug.Log("Pass a Day");
 
 	}
     public void UpdateState(int Pressure,int Healthy,int Happiness, int Riches)
